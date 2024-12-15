@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6.props" />
+</Project>

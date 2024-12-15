@@ -1,0 +1,611 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "RedisCacheDemo",
+    "version": "v1"
+  },
+  "paths": {
+    "/api/DocumentScanning/DocUploadSingleFile": {
+      "post": {
+        "tags": [
+          "HelperController"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "required": [
+                  "DocumentName",
+                  "FileDirectory",
+                  "files",
+                  "SubcategoryId"
+                ],
+                "type": "object",
+                "properties": {
+                  "DocumentName": {
+                    "type": "string"
+                  },
+                  "FileDirectory": {
+                    "type": "string"
+                  },
+                  "SubcategoryId": {
+                    "type": "string"
+                  },
+                  "files": {
+                    "type": "string",
+                    "format": "binary"
+                  },
+                  "FilePassword": {
+                    "type": "string"
+                  },
+                  "CompressedFileFormat": {
+                    "type": "string"
+                  },
+                  "SetEmployeeId": {
+                    "type": "string"
+                  },
+                  "FtpServerIP": {
+                    "type": "string"
+                  },
+                  "FtpPort": {
+                    "type": "string"
+                  },
+                  "FtpUserId": {
+                    "type": "string"
+                  },
+                  "FtpPassword": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "DocumentName": {
+                  "style": "form"
+                },
+                "FileDirectory": {
+                  "style": "form"
+                },
+                "SubcategoryId": {
+                  "style": "form"
+                },
+                "files": {
+                  "style": "form"
+                },
+                "FilePassword": {
+                  "style": "form"
+                },
+                "CompressedFileFormat": {
+                  "style": "form"
+                },
+                "SetEmployeeId": {
+                  "style": "form"
+                },
+                "FtpServerIP": {
+                  "style": "form"
+                },
+                "FtpPort": {
+                  "style": "form"
+                },
+                "FtpUserId": {
+                  "style": "form"
+                },
+                "FtpPassword": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/DocumentScanning/DocUploadMultipleFile": {
+      "post": {
+        "tags": [
+          "HelperController"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "required": [
+                  "DocumentName",
+                  "FileDirectory",
+                  "files",
+                  "SubcategoryId"
+                ],
+                "type": "object",
+                "properties": {
+                  "DocumentName": {
+                    "type": "string"
+                  },
+                  "FileDirectory": {
+                    "type": "string"
+                  },
+                  "SubcategoryId": {
+                    "type": "string"
+                  },
+                  "files": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "format": "binary"
+                    }
+                  },
+                  "FilePassword": {
+                    "type": "string"
+                  },
+                  "CompressedFileFormat": {
+                    "type": "string"
+                  },
+                  "SetEmployeeId": {
+                    "type": "string"
+                  },
+                  "FtpServerIP": {
+                    "type": "string"
+                  },
+                  "FtpPort": {
+                    "type": "string"
+                  },
+                  "FtpUserId": {
+                    "type": "string"
+                  },
+                  "FtpPassword": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "DocumentName": {
+                  "style": "form"
+                },
+                "FileDirectory": {
+                  "style": "form"
+                },
+                "SubcategoryId": {
+                  "style": "form"
+                },
+                "files": {
+                  "style": "form"
+                },
+                "FilePassword": {
+                  "style": "form"
+                },
+                "CompressedFileFormat": {
+                  "style": "form"
+                },
+                "SetEmployeeId": {
+                  "style": "form"
+                },
+                "FtpServerIP": {
+                  "style": "form"
+                },
+                "FtpPort": {
+                  "style": "form"
+                },
+                "FtpUserId": {
+                  "style": "form"
+                },
+                "FtpPassword": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Login/Authentication": {
+      "post": {
+        "tags": [
+          "HelperController"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserCredentialBEO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserCredentialBEO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserCredentialBEO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Login/refresh": {
+      "post": {
+        "tags": [
+          "HelperController"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RefreshTokenBEO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RefreshTokenBEO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RefreshTokenBEO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Product/products": {
+      "get": {
+        "tags": [
+          "HelperController"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Product"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Product"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Product"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Product/product": {
+      "get": {
+        "tags": [
+          "HelperController"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Product"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Product"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Product"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Product/addproduct": {
+      "post": {
+        "tags": [
+          "HelperController"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Product"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Product"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Product"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Product"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Product"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Product"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Product/updateproduct": {
+      "put": {
+        "tags": [
+          "HelperController"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Product"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Product"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Product"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Product/deleteproduct": {
+      "delete": {
+        "tags": [
+          "HelperController"
+        ],
+        "parameters": [
+          {
+            "name": "Id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/WeatherForecast": {
+      "get": {
+        "tags": [
+          "HelperController"
+        ],
+        "operationId": "GetWeatherForecast",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Product": {
+        "type": "object",
+        "properties": {
+          "productId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "productName": {
+            "type": "string",
+            "nullable": true
+          },
+          "productDescription": {
+            "type": "string",
+            "nullable": true
+          },
+          "stock": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "RefreshTokenBEO": {
+        "required": [
+          "refreshToken",
+          "token"
+        ],
+        "type": "object",
+        "properties": {
+          "token": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "refreshToken": {
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserCredentialBEO": {
+        "required": [
+          "password",
+          "userName"
+        ],
+        "type": "object",
+        "properties": {
+          "userName": {
+            "maxLength": 10,
+            "minLength": 2,
+            "type": "string"
+          },
+          "password": {
+            "maxLength": 10,
+            "minLength": 2,
+            "type": "string"
+          },
+          "roleId": {
+            "type": "string",
+            "nullable": true
+          },
+          "roleName": {
+            "type": "string",
+            "nullable": true
+          },
+          "employeeId": {
+            "type": "string",
+            "nullable": true
+          },
+          "employeeName": {
+            "type": "string",
+            "nullable": true
+          },
+          "joiningDate": {
+            "type": "string",
+            "nullable": true
+          },
+          "designation": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "WeatherForecast": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "temperatureC": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "temperatureF": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "summary": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "apiKey",
+        "description": "JWT Authorization header using the Bearer scheme. \r\n\r\n Enter 'Bearer' [space] and then your token in the text input below.\r\n\r\nExample: \"Bearer 1safsfsdfdfd\"",
+        "name": "Authorization",
+        "in": "header"
+      }
+    }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
+}

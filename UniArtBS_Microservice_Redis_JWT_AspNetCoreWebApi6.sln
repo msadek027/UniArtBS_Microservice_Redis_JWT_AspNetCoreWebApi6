@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6", "UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6.csproj", "{A4AB4CFC-2910-4490-9EA7-5B2845812F38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Documents", "Documents\Documents.csproj", "{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Security", "Security\Security.csproj", "{013FFDA4-E07D-4AAC-A33C-4521E88B1988}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workflow", "Workflow\Workflow.csproj", "{F11E51E6-CA6F-440B-8A28-A3A2FDB461A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A4AB4CFC-2910-4490-9EA7-5B2845812F38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4AB4CFC-2910-4490-9EA7-5B2845812F38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4AB4CFC-2910-4490-9EA7-5B2845812F38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4AB4CFC-2910-4490-9EA7-5B2845812F38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{013FFDA4-E07D-4AAC-A33C-4521E88B1988}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{013FFDA4-E07D-4AAC-A33C-4521E88B1988}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{013FFDA4-E07D-4AAC-A33C-4521E88B1988}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{013FFDA4-E07D-4AAC-A33C-4521E88B1988}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F11E51E6-CA6F-440B-8A28-A3A2FDB461A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F11E51E6-CA6F-440B-8A28-A3A2FDB461A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F11E51E6-CA6F-440B-8A28-A3A2FDB461A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F11E51E6-CA6F-440B-8A28-A3A2FDB461A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,303 @@
+[
+  {
+    "ContainingType": "Documents.Controllers.DocumentScanningController",
+    "Method": "DocUploadMultipleFile",
+    "RelativePath": "api/DocumentScanning/DocUploadMultipleFile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "DocumentName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FileDirectory",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SubcategoryId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "files",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "FilePassword",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CompressedFileFormat",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SetEmployeeId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FtpServerIP",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FtpPort",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FtpUserId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FtpPassword",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Documents.Controllers.DocumentScanningController",
+    "Method": "DocUploadSingleFile",
+    "RelativePath": "api/DocumentScanning/DocUploadSingleFile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "DocumentName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FileDirectory",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SubcategoryId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "files",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "FilePassword",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CompressedFileFormat",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SetEmployeeId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FtpServerIP",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FtpPort",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FtpUserId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FtpPassword",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Documents.Controllers.LoginController",
+    "Method": "Authentication",
+    "RelativePath": "api/Login/Authentication",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userCredential",
+        "Type": "Documents.Models.UserCredentialBEO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Documents.Controllers.LoginController",
+    "Method": "Refresh",
+    "RelativePath": "api/Login/refresh",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "token",
+        "Type": "Documents.Models.RefreshTokenBEO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Documents.Controllers.ProductController",
+    "Method": "Post",
+    "RelativePath": "api/Product/addproduct",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "value",
+        "Type": "Documents.Model.Product",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Documents.Model.Product",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Documents.Controllers.ProductController",
+    "Method": "Delete",
+    "RelativePath": "api/Product/deleteproduct",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Documents.Controllers.ProductController",
+    "Method": "Get",
+    "RelativePath": "api/Product/product",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Documents.Model.Product",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Documents.Controllers.ProductController",
+    "Method": "Get",
+    "RelativePath": "api/Product/products",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Documents.Model.Product, Documents, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Documents.Controllers.ProductController",
+    "Method": "Put",
+    "RelativePath": "api/Product/updateproduct",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "product",
+        "Type": "Documents.Model.Product",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Documents.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "api/WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Documents.WeatherForecast, Documents, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
