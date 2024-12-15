@@ -1,12 +1,11 @@
 {
   "Version": 1,
-  "Hash": "25y0/n8YDay71Oj+cF+o6iN8NpDjHSVCSpztR5c2AjQ=",
+  "Hash": "Zyms7b8kuvxTDrFblSbW49d+hGPfM0HNzLkyqWiBhN4=",
   "Source": "Documents",
   "BasePath": "_content/Documents",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "Assets": []
 }

@@ -1,0 +1,42 @@
+--For deployment.yml
+-----------------------------
+apiVersion: apps/v1
+kind: Deployement
+metadata:
+ name:testdeployement
+ labels:
+  app:testn_deployementpod
+  
+spec:
+ replicas: 3
+ selector:
+  matchlabels:
+   app:testn_deployementpod
+ templates:
+  metadata:
+   labels:
+    app: testn_deployementpod  
+ 
+  spec:
+   containers:
+   - name: testndeployementcontainer
+     image: hell:v1
+	 -ports:80
+	  - containerPort:80
+	  
+	  
+------------------------------------
+--For service.yml
+---------------------
+apiVersion: v1
+kind: Service	 
+metadata:
+ name:testdeploymentservice
+spec:
+ selector:
+  app.kobernetes.io/name: testn_deploymentpod
+ ports:
+  - protocol: TCP
+    port: 8080
+    targetpost: 80	
+	  

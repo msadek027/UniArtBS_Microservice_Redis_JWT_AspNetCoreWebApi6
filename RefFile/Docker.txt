@@ -1,0 +1,42 @@
+
+//Terminal
+docker images
+
+docker build -f UniArtBS_Microservice_JWT_AspNetCoreWebApi6/Dockerfile -t ytdocker:v1
+
+docker build -f UniArtBS_Microservice_JWT_AspNetCoreWebApi6/Dockerfile -t ytdocker:v1 .
+
+docker build -t ytdocker:v1 -f UniArtBS_Microservice_JWT_AspNetCoreWebApi6/Dockerfile
+
+docker build -t ytdocker:v1 -f UniArtBS_Microservice_JWT_AspNetCoreWebApi6/Dockerfile .
+
+docker run -it --rm -p 8080:80 ytdocker:v1
+
+To add container orchestrator support using Docker Compose
+
+UniArtBS_Microservice_JWT_AspNetCoreWebApi6
+
+http://localhost:5000/swagger/index.html
+http://localhost:5000/WeatherForecast
+http://localhost:5008/Role
+http://localhost:5008/swagger/index.html
+
+UniArtBS_Microservice_JWT_AspNetCoreWebApi6
+SA
+
+http://localhost:5002/WeatherForecast
+http://localhost:5004/Role
+
+//Terminal
+docker-compose build
+docker-compose up
+
+Docker Compose Errors: Rebuild and start fresh:
+docker-compose down
+docker-compose up --build
+
+If the existing network is not needed:
+Identify the network:
+docker network ls
+Remove the network:
+docker network rm uniartbs_microservice_jwt_aspnetcorewebapi6_default

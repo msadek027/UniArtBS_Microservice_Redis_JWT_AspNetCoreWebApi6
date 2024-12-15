@@ -1,0 +1,90 @@
+https://www.youtube.com/watch?v=YWXdl68XY7U
+https://www.youtube.com/watch?v=93tYEjk-VCE
+
+https://www.c-sharpcorner.com/article/containerize-the-net-core-7-web-api-with-docker-and-kubernetes/
+https://medium.com/@jaydeepvpatil225/containerize-the-net-core-7-web-api-with-docker-and-kubernetes-9dd23e392936
+UserId/Password: msadek027/Ahyaan@u1
+or
+UserId/Password: engr.msadek027@gmail.com/Ahyaan@u1
+
+-------------------------------------------------------------------------
+Deploy method 1:
+Requisite:
+1. Dockerfile
+Note: The Dockerfile needs for each .csproj file
+Step 1:Create a docker image for our newly created application:
+If you don't see a Dockerfile, you'll need to create one.
+GoTo Dockerfile location for image built
+Step 2:Build the docker image:
+Command: docker build -t web-api .
+
+
+END
+----------------------------------------------
+Deploy Method 2:
+Requisite:
+1. Dockerfile
+2. deployment.yml
+3. service.yml
+Note: The Dockerfile,deployment & service needs for each .csproj file
+
+Containerization of Applications using Docker and Kubernetes:
+Note: Please make sure Docker and Kubernetes are running on your system.
+Step 1:Create a docker image for our newly created application:
+
+Verify the Dockerfile Exists: 
+Command: dir E:\VS2022\MicroserviceApp\NET_Core_WebAPI_Kubernetes_Demo
+If you don't see a Dockerfile, you'll need to create one.
+GoTo Dockerfile location for image built
+Step 2:Build the docker image:
+Command: docker build -t web-api .
+The . indicates the current directory as the build context, and Docker will look for a Dockerfile in that directory.
+Step 3:Run the docker image inside a docker container:
+Command: docker run -d -p 8081:80 --name web-api-container web-api
+Step 4:Open the browser and hit the API URL to execute different endpoints:
+http://localhost:8081/swagger/index.html
+Step 5:
+Create a deployment and service YAML file for Kubernetes to create deployments, pods, and services for our product service.
+
+deployment.YAML
+service.YAML
+Step 6:Apply deployment and service YAML files with kubectl commands:
+Command: kubectl apply -f NET_Core_WebAPI_Kubernetes_Demo\deployment.yml
+Command: kubectl apply -f NET_Core_WebAPI_Kubernetes_Demo\service.yml
+Step 7:Check and verify deployment, instances, services, pods, logs, etc.
+Command: kubectl get pods
+Command: kubectl get deployments
+Command: kubectl get services
+Command: kubectl logs product-app-deployment-5bcf4cfb68-5k76r
+Step 8:
+http://localhost:32315/swagger/index.html
+
+END
+-------------------------------------------------
+
+How to push Dockerhub:
+Step 1:Verify the Locally Built Images:
+Command: docker images
+
+Step 2:You need to tag your image for Docker Hub before pushing it.
+Command: docker tag web-api:latest msadek027/test:web-api
+
+Step 3:Push the Tagged Image to Docker Hub:
+Command: docker push msadek027/test:web-api
+
+-----------------------------------------------------
+Deploy Method 3:
+Requisite:
+1. Dockerfile
+2. docker-compose.yml
+Note: The Dockerfile needs to include each .csproj file, but single docker-compose.yml for multiple images
+
+How to Deploy using docker-compose
+Step 1:Create a docker image for our newly created application:
+Step 2: Make and Prepare docker-compose file
+docker-compose.yml
+Step 3:
+Command: docker-compose config
+Command: docker-compose up -d
+Command: docker-compose down
+

@@ -1,0 +1,48 @@
+-Command for Powershell
+kubectl config set-cluster docker-desktop --server=https://kubernetes.docker.internal:6443
+kubectl config set-credentials docker-desktop --username=msadek --password=Ahyaan@u
+kubectl config set-context docker-desktop --cluster=docker-desktop --user=docker-desktop
+kubectl config use-context docker-desktop
+
+
+2. Dot net Developement Ternial:
+
+-kubectl config get-contexts
+
+3. add to YAML file to usder project where locate at Dockerfile:
+deployment.yml
+
+4. - docker images
+
+deployement.yml file will update by images name
+
+kubectl apply -f NameoftheApp/deployment.yml
+5. kubectl apply -f uniartbs_microservice_jwt_aspnetcorewebapi6/deployment.yml
+
+6. - kubectl config use-context docker-desktop
+7. add to YAML file to usder project where locate at Dockerfile: service.yml
+
+kubectl apply -f uniartbs_microservice_jwt_aspnetcorewebapi6/service.yml
+docker run -d -p 5001:80 — name web-api-container web-api
+
+http://localhost:5003/WeatherForecast
+
+http://localhost:8080/WeatherForecast
+http://10.110.122.126:8080/WeatherForecast
+
+Verify the Deployment:
+kubectl get pods
+kubectl describe pod testdeployment
+kubectl logs testdeployment
+
+
+deployment.apps/testn_deploymentpod created
+
+service/testdeploymentservice created 
+
+Delete: 
+kubectl delete -f bb.yaml
+kubectl delete pod testdeployment
+Delete and Redeploy:
+kubectl delete deployment testdeployment
+kubectl apply -f deployment.yaml

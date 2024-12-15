@@ -52,35 +52,35 @@ namespace Documents
         /// The controllers to scan for a <see cref="SwaggerControllerOrderAttribute"/> to determine the sortorder.
         /// </param>
         /// 
-        //public SwaggerControllerOrder(IEnumerable<Type> controllers)
-        //{
-        //    // Initialize our dictionary; scan the given controllers for our custom attribute, read the Order property
-        //    // from the attribute and store it as controllername -> sorderorder pair in the (case-insensitive) dicationary.
-        //    orders = new Dictionary<string, uint>(
-        //        controllers.Where(c => c.GetCustomAttributes<SwaggerControllerOrderAttribute>().Any())
-        //        .Select(c => new { Name = ResolveControllerName(c.Name), c.GetCustomAttribute<SwaggerControllerOrderAttribute>().Order })
-        //        .ToDictionary(v => v.Name, v => v.Order), StringComparer.OrdinalIgnoreCase);
-        //}
         public SwaggerControllerOrder(IEnumerable<Type> controllers)
         {
-            // Initialize the dictionary to store controller names and their respective order from the custom attribute
-            orders = new Dictionary<string, uint>(StringComparer.OrdinalIgnoreCase);
-
-            foreach (var controller in controllers)
-            {
-                // Try to get the SwaggerControllerOrderAttribute from the controller
-                var attribute = controller.GetCustomAttribute<SwaggerControllerOrderAttribute>();
-
-                if (attribute != null)
-                {
-                    // Resolve the controller's name by stripping the "Controller" suffix
-                    string controllerName = ResolveControllerName(controller.Name);
-
-                    // Store the controller name and order in the dictionary
-                    orders[controllerName] = attribute.Order;
-                }
-            }
+            // Initialize our dictionary; scan the given controllers for our custom attribute, read the Order property
+            // from the attribute and store it as controllername -> sorderorder pair in the (case-insensitive) dicationary.
+            orders = new Dictionary<string, uint>(
+                controllers.Where(c => c.GetCustomAttributes<SwaggerControllerOrderAttribute>().Any())
+                .Select(c => new { Name = ResolveControllerName(c.Name), c.GetCustomAttribute<SwaggerControllerOrderAttribute>().Order })
+                .ToDictionary(v => v.Name, v => v.Order), StringComparer.OrdinalIgnoreCase);
         }
+        //public SwaggerControllerOrder(IEnumerable<Type> controllers)
+        //{
+        //    // Initialize the dictionary to store controller names and their respective order from the custom attribute
+        //    orders = new Dictionary<string, uint>(StringComparer.OrdinalIgnoreCase);
+
+        //    foreach (var controller in controllers)
+        //    {
+        //        // Try to get the SwaggerControllerOrderAttribute from the controller
+        //        var attribute = controller.GetCustomAttribute<SwaggerControllerOrderAttribute>();
+
+        //        if (attribute != null)
+        //        {
+        //            // Resolve the controller's name by stripping the "Controller" suffix
+        //            string controllerName = ResolveControllerName(controller.Name);
+
+        //            // Store the controller name and order in the dictionary
+        //            orders[controllerName] = attribute.Order;
+        //        }
+        //    }
+        //}
 
         /// <summary>
         /// Returns all <typeparamref name="TController"/>'s from the given assembly.

@@ -26,9 +26,8 @@ var configuration = builder.Configuration;
 builder.Services.AddScoped<ICacheService, CacheService>();
 builder.Services.AddDbContext<DbContextClass>(options => options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddMvc();
-//SwaggerControllerOrder<ControllerBase> swaggerControllerOrder = new SwaggerControllerOrder<ControllerBase>(Assembly.GetEntryAssembly());
-SwaggerControllerOrder<ControllerBase> swaggerControllerOrder = new SwaggerControllerOrder<ControllerBase>(Assembly.GetExecutingAssembly());
 
+/*
 builder.Services.AddSwaggerGen(c =>
 {
     //var controllerTypes = typeof(Program).Assembly.GetTypes().Where(t => typeof(ControllerBase).IsAssignableFrom(t)).OrderBy(t => t.Name).ToList();
@@ -53,7 +52,7 @@ builder.Services.AddSwaggerGen(c =>
     //    c.TagActionsBy(api => new[] { controller.Name });
     //}
 
-
+    c.EnableAnnotations();
     c.SwaggerDoc("v1", new OpenApiInfo
     {
         Title = "RedisCacheDemo",
@@ -61,7 +60,7 @@ builder.Services.AddSwaggerGen(c =>
     });
 
 });
-
+*/
 // Add services to the container.
 
 builder.Services.AddControllers();
@@ -109,6 +108,13 @@ builder.Services.AddSwaggerGen(c =>
 {
     //  c.SwaggerDoc("v1", new OpenApiInfo { Title = "JSON Web JWT Token ASP.NET Core Web Api 5.0", Version = "v1" });
 
+
+    c.EnableAnnotations();
+    c.SwaggerDoc("v1", new OpenApiInfo
+    {
+        Title = "RedisCacheDemo",
+        Version = "v1"
+    });
     c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme()
     {
         Name = "Authorization",
@@ -119,7 +125,14 @@ builder.Services.AddSwaggerGen(c =>
         Description = "JWT Authorization header using the Bearer scheme. \r\n\r\n Enter 'Bearer' [space] and then your token in the text input below.\r\n\r\nExample: \"Bearer 1safsfsdfdfd\"",
     });
     c.AddSecurityRequirement(new OpenApiSecurityRequirement { { new OpenApiSecurityScheme { Reference = new OpenApiReference { Type = ReferenceType.SecurityScheme, Id = "Bearer" } }, new string[] { } } });
+
+    //SwaggerControllerOrder<ControllerBase> swaggerControllerOrder = new SwaggerControllerOrder<ControllerBase>(Assembly.GetEntryAssembly());
+     SwaggerControllerOrder<ControllerBase> swaggerControllerOrder = new SwaggerControllerOrder<ControllerBase>(Assembly.GetExecutingAssembly());
+     //c.OrderActionsBy((apiDesc) => $"{swaggerControllerOrder.SortKey(apiDesc.ActionDescriptor.RouteValues["controller"])}");
+     c.OrderActionsBy(apiDesc =>   $"{swaggerControllerOrder.SortKey(apiDesc.ActionDescriptor.RouteValues["controller"])}.{apiDesc.HttpMethod}");
 });
+
+
 builder.Services.AddHttpContextAccessor();
 
 builder.Services.Configure<FormOptions>(options =>
@@ -132,7 +145,11 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI();
+    //app.UseSwaggerUI();
+    app.UseSwaggerUI(options =>
+    {
+        options.DefaultModelsExpandDepth(-1); // Disables displaying models (schemas)
+    });
 }
 app.UseRouting();
 app.UseCors("CorsPolicy");

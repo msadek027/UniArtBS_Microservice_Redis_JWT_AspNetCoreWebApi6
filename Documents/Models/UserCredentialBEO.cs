@@ -1,7 +1,9 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Swashbuckle.AspNetCore.Annotations;
+using System.ComponentModel.DataAnnotations;
 
 namespace Documents.Models
 {
+    [SwaggerSchema(ReadOnly = true)]
     public class UserCredentialBEO
     {
         [Required]
@@ -10,8 +12,6 @@ namespace Documents.Models
         [Required]
         [StringLength(10, MinimumLength = 2)]
         public string Password { get; set; }
-
-
         public string RoleId { get; set; }
         public string RoleName { get; set; }
         public string EmployeeId { get; set; }
