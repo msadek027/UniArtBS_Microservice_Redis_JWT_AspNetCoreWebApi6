@@ -112,7 +112,7 @@ builder.Services.AddSwaggerGen(c =>
     c.EnableAnnotations();
     c.SwaggerDoc("v1", new OpenApiInfo
     {
-        Title = "RedisCacheDemo",
+        Title = "JWT Authorization Microservice Redis Cache AspNetCoreWebApi6 App",
         Version = "v1"
     });
     c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme()

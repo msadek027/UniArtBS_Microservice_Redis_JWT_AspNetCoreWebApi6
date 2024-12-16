@@ -26,9 +26,7 @@ namespace Documents.Controllers
         Terminal terminal = new Terminal();
         DBConnection dbConn = new DBConnection();
         DBHelper dbHelper = new DBHelper();
-        ExceptionHandler exceptionHandler = new ExceptionHandler();
-
-      
+        ExceptionHandler exceptionHandler = new ExceptionHandler();      
 
         private readonly DbContextClass _dbContext;
         private readonly ICacheService _cacheService;
@@ -38,8 +36,7 @@ namespace Documents.Controllers
         public DocumentScanningController(DbContextClass dbContext, ICacheService cacheService)
         {
             _dbContext = dbContext;
-            _cacheService = cacheService;
-           
+            _cacheService = cacheService;           
         }
        
 
@@ -102,7 +99,6 @@ namespace Documents.Controllers
                 tempObj.FtpUserId = obj.FtpUserId;
                 tempObj.FtpPassword = obj.FtpPassword;
 
-
                 var fileDownloadController = new FileUploadController();
                 fileDownloadController.DocUploadSingleFile(tempObj, fileExt_fileId, obj.files, "DocumentId", "Doc_Documents");
 
@@ -111,9 +107,9 @@ namespace Documents.Controllers
                 {
                     Status = isTrue==true?"Success":"Fail",
                     Message = isTrue == true ? "Execution Successful!" : "Execution Failed!",
+                    TotalPages=1,
                     Data = items
                 };
-
                 return Ok(response);
             }
             catch (Exception ex)
@@ -122,6 +118,7 @@ namespace Documents.Controllers
                 {
                     Status =  "Error",
                     Message = ex.Message,
+                    TotalPages = 0,
                     Data = items
                 };
                 return Ok(response);
