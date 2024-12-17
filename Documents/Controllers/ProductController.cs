@@ -1,6 +1,7 @@
 ﻿using Dapper;
 using Documents.Cache;
 using Documents.Data;
+using Documents.DocumentCommon;
 using Documents.Model;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -19,11 +20,19 @@ namespace Documents.Controllers
     [SwaggerControllerOrder(8)]
     public class ProductController : ControllerBase
     {
+        DBConnection conn = new DBConnection();
         private readonly DbContextClass _dbContext;
         private readonly ICacheService _cacheService;
         //https://www.c-sharpcorner.com/article/implementation-of-the-redis-cache-in-the-net-core-api/
 
-        //private static object _lock = new object();
+        /*
+            CREATE TABLE Products(
+            ProductId int,
+            ProductName varchar(50),
+            ProductDescription varchar(100),
+            Stock int
+            )
+         */
         public ProductController(DbContextClass dbContext, ICacheService cacheService)
         {
             _dbContext = dbContext;
@@ -71,7 +80,7 @@ namespace Documents.Controllers
                 return filteredData;
             }
             // Use raw SQL with Dapper
-            using (var connection = new SqlConnection("Data Source=SILCHQSOF184D;Initial Catalog=dbHR;User Id=sa;Password=123456;"))
+            using (var connection = new SqlConnection(conn.SAConnStrReader()))
             {
                 var sql = "SELECT * FROM Products WHERE ProductId = @id";
                 filteredData = connection.QueryFirstOrDefault<Product>(sql, new { id });

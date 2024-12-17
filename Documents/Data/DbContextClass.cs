@@ -1,17 +1,19 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Documents.Model;
+using System.Data.Common;
+using Documents.DocumentCommon;
 
 namespace Documents.Data
 {
     public class DbContextClass: DbContext
     {
+        DBConnection conn= new DBConnection();
         public DbContextClass(DbContextOptions<DbContextClass> options) : base(options)
         {
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(
-                "Data Source=SILCHQSOF184D;Initial Catalog=dbHR;User Id=sa;Password=123456;",
+            optionsBuilder.UseSqlServer(conn.SAConnStrReader(),
                 sqlServerOptions => sqlServerOptions.EnableRetryOnFailure(
                     maxRetryCount: 5,           // Number of retry attempts (default is 6)
                     maxRetryDelay: TimeSpan.FromSeconds(10), // Max delay between retries

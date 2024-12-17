@@ -27,7 +27,42 @@ namespace Documents.Controllers
 
         [AllowAnonymous]
         [HttpPost("Authentication")]
-        public IActionResult Authentication([FromBody] UserCredentialBEO userCredential)
+        public IActionResult Authentication([FromForm] UserCredentialBEO userCredential)
+        {
+            string uid = encryption.Encrypt(userCredential.UserName);
+            string pwd = encryption.Encrypt(userCredential.Password);
+            string roleId = "";
+            string employeeId = "";
+            string employeeName = "";
+            string designation = "";
+            string joiningDate = "";
+
+            bool isTrue = false;
+            if ((userCredential.UserName != null) && (userCredential.Password != null))
+            {
+                var obj = loginRegistrationDAO.CheckUserCredential().Where(m => m.UserName.Equals(userCredential.UserName) && m.Password.Equals(userCredential.Password)).FirstOrDefault();
+                if (obj != null)
+                {
+                    isTrue = true;
+                    roleId = obj.RoleId;
+                    employeeId = obj.EmployeeId;
+                    employeeName = obj.EmployeeName;
+                    designation = obj.Designation;
+                    joiningDate = obj.JoiningDate;                            
+                }
+            }
+       
+            var token = jwtAuth.Authentication(userCredential.UserName, userCredential.Password);
+            var refreshToken = jwtAuth.GenerateRefreshToken();
+            if (token == null || isTrue == false)
+                return Unauthorized();
+            // return Ok(token);
+            return Ok(new { Token = token, RefreshToken = refreshToken, RoleId = roleId, EmployeeId = employeeId, EmployeeName = employeeName, Designation = designation, JoiningDate = joiningDate });
+                    
+        }
+        [AllowAnonymous]
+        [HttpPost("Authentication2")]
+        public IActionResult Authentication2([FromBody] UserCredentialBEO userCredential)
         {
             string uid = encryption.Encrypt(userCredential.UserName);
             string pwd = encryption.Encrypt(userCredential.Password);
@@ -49,11 +84,9 @@ namespace Documents.Controllers
                     employeeName = obj.EmployeeName;
                     designation = obj.Designation;
                     joiningDate = obj.JoiningDate;
-                             
-
                 }
             }
-       
+
             var token = jwtAuth.Authentication(userCredential.UserName, userCredential.Password);
             var refreshToken = jwtAuth.GenerateRefreshToken();
             if (token == null || isTrue == false)
@@ -62,7 +95,6 @@ namespace Documents.Controllers
             return Ok(new { Token = token, RefreshToken = refreshToken, RoleId = roleId, EmployeeId = employeeId, EmployeeName = employeeName, Designation = designation, JoiningDate = joiningDate });
 
         }
-
         [AllowAnonymous]
         [HttpPost]
         [Route("refresh")]

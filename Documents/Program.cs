@@ -13,7 +13,7 @@ using System.Reflection;
 using System.Text;
 
 
-
+DBConnection conn = new DBConnection();
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -24,43 +24,10 @@ var configuration = builder.Configuration;
 // Add services to the container
 
 builder.Services.AddScoped<ICacheService, CacheService>();
-builder.Services.AddDbContext<DbContextClass>(options => options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddDbContext<DbContextClass>(options => options.UseSqlServer(configuration.GetConnectionString("SAConn")));
 builder.Services.AddMvc();
 
-/*
-builder.Services.AddSwaggerGen(c =>
-{
-    //var controllerTypes = typeof(Program).Assembly.GetTypes().Where(t => typeof(ControllerBase).IsAssignableFrom(t)).OrderBy(t => t.Name).ToList();
-    //foreach (var controller in controllerTypes)
-    //{
-    //    c.TagActionsBy(api => new[] { controller.Name });
-    //}
-    //c.TagActionsBy(api => new[] { api.GroupName ?? "Default" });
 
-
-    //var assembly = Assembly.GetExecutingAssembly();
-    //var controllerTypes2 = assembly.GetTypes()
-    //                              .Where(t => typeof(ControllerBase).IsAssignableFrom(t))
-    //                              .OrderBy(t =>
-    //                              {
-    //                                  var orderAttribute = t.GetCustomAttribute<SwaggerControllerOrderAttribute>();
-    //                                  return orderAttribute?.Order ?? uint.MaxValue;
-    //                              })
-    //                              .ToList();
-    //foreach (var controller in controllerTypes2)
-    //{
-    //    c.TagActionsBy(api => new[] { controller.Name });
-    //}
-
-    c.EnableAnnotations();
-    c.SwaggerDoc("v1", new OpenApiInfo
-    {
-        Title = "RedisCacheDemo",
-        Version = "v1"
-    });
-
-});
-*/
 // Add services to the container.
 
 builder.Services.AddControllers();

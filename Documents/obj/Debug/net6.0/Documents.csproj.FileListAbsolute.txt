@@ -103,12 +103,9 @@ D:\gitHup\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\bin\Debug\
 D:\gitHup\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\bin\Debug\net6.0\Humanizer.dll
 D:\gitHup\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\bin\Debug\net6.0\ICSharpCode.SharpZipLib.dll
 D:\gitHup\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-D:\gitHup\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\bin\Debug\net6.0\Microsoft.AspNetCore.Authorization.dll
-D:\gitHup\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\bin\Debug\net6.0\Microsoft.AspNetCore.Metadata.dll
 D:\gitHup\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
 D:\gitHup\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\bin\Debug\net6.0\Microsoft.Bcl.TimeProvider.dll
 D:\gitHup\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
-D:\gitHup\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
 D:\gitHup\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 D:\gitHup\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 D:\gitHup\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
@@ -118,8 +115,6 @@ D:\gitHup\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\bin\Debug\
 D:\gitHup\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
 D:\gitHup\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
 D:\gitHup\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
-D:\gitHup\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-D:\gitHup\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
 D:\gitHup\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
 D:\gitHup\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
 D:\gitHup\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
@@ -148,8 +143,6 @@ D:\gitHup\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\bin\Debug\
 D:\gitHup\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
 D:\gitHup\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\bin\Debug\net6.0\System.Security.Permissions.dll
 D:\gitHup\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\bin\Debug\net6.0\System.Windows.Extensions.dll
-D:\gitHup\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\bin\Debug\net6.0\TGolla.AspNetCore.Mvc.Filters.dll
-D:\gitHup\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\bin\Debug\net6.0\TGolla.Swashbuckle.AspNetCore.dll
 D:\gitHup\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 D:\gitHup\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 D:\gitHup\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
