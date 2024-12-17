@@ -3,60 +3,20 @@
   "WorkspaceRootPath": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\documents\\swaggercontrollerorderattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|solutionrelative:documents\\swaggercontrollerorderattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\documents\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|solutionrelative:documents\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\documents\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|solutionrelative:documents\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\documents\\controllers\\documentscanningcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|solutionrelative:documents\\controllers\\documentscanningcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\documents\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|solutionrelative:documents\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\documents\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|solutionrelative:documents\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\documents\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|solutionrelative:documents\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\documents\\controllers\\helpercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|solutionrelative:documents\\controllers\\helpercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\documents\\controllers\\fileuploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|solutionrelative:documents\\controllers\\fileuploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\documents\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|solutionrelative:documents\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\documents\\documentcommon\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|solutionrelative:documents\\documentcommon\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\documents\\documentcommon\\usercredentialdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|solutionrelative:documents\\documentcommon\\usercredentialdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\documents\\auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|solutionrelative:documents\\auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\documents\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|solutionrelative:documents\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\documents\\ijwtauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|solutionrelative:documents\\ijwtauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\documents\\controllers\\documentscanningsearchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|solutionrelative:documents\\controllers\\documentscanningsearchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,184 +34,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "HelperController.cs",
-              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\Controllers\\HelperController.cs",
-              "RelativeDocumentMoniker": "Documents\\Controllers\\HelperController.cs",
-              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\Controllers\\HelperController.cs",
-              "RelativeToolTip": "Documents\\Controllers\\HelperController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T10:17:00.811Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FileUploadController.cs",
-              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\Controllers\\FileUploadController.cs",
-              "RelativeDocumentMoniker": "Documents\\Controllers\\FileUploadController.cs",
-              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\Controllers\\FileUploadController.cs",
-              "RelativeToolTip": "Documents\\Controllers\\FileUploadController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T10:16:58.59Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SwaggerControllerOrderAttribute.cs",
-              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\SwaggerControllerOrderAttribute.cs",
-              "RelativeDocumentMoniker": "Documents\\SwaggerControllerOrderAttribute.cs",
-              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\SwaggerControllerOrderAttribute.cs",
-              "RelativeToolTip": "Documents\\SwaggerControllerOrderAttribute.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAIwD4AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T09:52:58.049Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "Documents\\appsettings.Development.json",
-              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\appsettings.Development.json",
-              "RelativeToolTip": "Documents\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-15T08:58:05.336Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ApiResponse.cs",
-              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\DocumentCommon\\ApiResponse.cs",
-              "RelativeDocumentMoniker": "Documents\\DocumentCommon\\ApiResponse.cs",
-              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\DocumentCommon\\ApiResponse.cs",
-              "RelativeToolTip": "Documents\\DocumentCommon\\ApiResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T08:56:48.971Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "Documents\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "Documents\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T07:33:10.698Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\appsettings.json",
-              "RelativeDocumentMoniker": "Documents\\appsettings.json",
-              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\appsettings.json",
-              "RelativeToolTip": "Documents\\appsettings.json",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-15T07:15:48.632Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UserCredentialDAO.cs",
-              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\DocumentCommon\\UserCredentialDAO.cs",
-              "RelativeDocumentMoniker": "Documents\\DocumentCommon\\UserCredentialDAO.cs",
-              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\DocumentCommon\\UserCredentialDAO.cs",
-              "RelativeToolTip": "Documents\\DocumentCommon\\UserCredentialDAO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T07:15:18.111Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "LoginController.cs",
               "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "Documents\\Controllers\\LoginController.cs",
               "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\Controllers\\LoginController.cs",
               "RelativeToolTip": "Documents\\Controllers\\LoginController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAlwAoAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAowDUAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T07:12:16.556Z",
+              "WhenOpened": "2024-12-17T02:51:40.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Documents\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Documents\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T02:48:13.579Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\Program.cs",
-              "RelativeDocumentMoniker": "Documents\\Program.cs",
-              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\Program.cs",
-              "RelativeToolTip": "Documents\\Program.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T07:06:46.962Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "Documents\\Controllers\\ProductController.cs",
-              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "Documents\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T07:06:40.866Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "DocumentScanningController.cs",
               "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\Controllers\\DocumentScanningController.cs",
               "RelativeDocumentMoniker": "Documents\\Controllers\\DocumentScanningController.cs",
               "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\Controllers\\DocumentScanningController.cs",
               "RelativeToolTip": "Documents\\Controllers\\DocumentScanningController.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAlwBYAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAOUAAAAAAAAAAAAcwBMAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T07:06:40.881Z",
+              "WhenOpened": "2024-12-17T02:45:49.01Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "IJwtAuth.cs",
-              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\IJwtAuth.cs",
-              "RelativeDocumentMoniker": "Documents\\IJwtAuth.cs",
-              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\IJwtAuth.cs",
-              "RelativeToolTip": "Documents\\IJwtAuth.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "DocumentScanningSearchController.cs",
+              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\Controllers\\DocumentScanningSearchController.cs",
+              "RelativeDocumentMoniker": "Documents\\Controllers\\DocumentScanningSearchController.cs",
+              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\Controllers\\DocumentScanningSearchController.cs",
+              "RelativeToolTip": "Documents\\Controllers\\DocumentScanningSearchController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAQwCQAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T07:05:46.031Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Auth.cs",
-              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\Auth.cs",
-              "RelativeDocumentMoniker": "Documents\\Auth.cs",
-              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\Auth.cs",
-              "RelativeToolTip": "Documents\\Auth.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAASwC8AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T07:05:41.468Z",
+              "WhenOpened": "2024-12-17T02:46:52.332Z",
               "EditorCaption": ""
             }
           ]

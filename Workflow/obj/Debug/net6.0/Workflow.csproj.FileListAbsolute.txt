@@ -90,3 +90,5 @@ E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Work
 E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Workflow\obj\Debug\net6.0\Workflow.pdb
 E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Workflow\obj\Debug\net6.0\Workflow.genruntimeconfig.cache
 E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Workflow\obj\Debug\net6.0\ref\Workflow.dll
+E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Workflow\bin\Debug\net6.0\Swashbuckle.AspNetCore.Annotations.dll
+E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Workflow\obj\Debug\net6.0\Workflow.sourcelink.json

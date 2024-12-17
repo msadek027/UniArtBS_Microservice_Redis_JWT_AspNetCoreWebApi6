@@ -1,14 +1,76 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "RedisCacheDemo",
+    "title": "JWT Authorization Microservice Redis Cache AspNetCoreWebApi6 App",
     "version": "v1"
   },
   "paths": {
+    "/api/Login/Authentication": {
+      "post": {
+        "tags": [
+          "Login"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserCredentialBEO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserCredentialBEO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserCredentialBEO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Login/refresh": {
+      "post": {
+        "tags": [
+          "Login"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RefreshTokenBEO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RefreshTokenBEO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RefreshTokenBEO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/DocumentScanning/DocUploadSingleFile": {
       "post": {
         "tags": [
-          "HelperController"
+          "DocumentScanning"
         ],
         "requestBody": {
           "content": {
@@ -98,7 +160,7 @@
         },
         "responses": {
           "200": {
-            "description": "Success"
+            "description": "OK"
           }
         }
       }
@@ -106,7 +168,7 @@
     "/api/DocumentScanning/DocUploadMultipleFile": {
       "post": {
         "tags": [
-          "HelperController"
+          "DocumentScanning"
         ],
         "requestBody": {
           "content": {
@@ -199,69 +261,29 @@
         },
         "responses": {
           "200": {
-            "description": "Success"
+            "description": "OK"
           }
         }
       }
     },
-    "/api/Login/Authentication": {
-      "post": {
+    "/api/Product/deleteproduct": {
+      "delete": {
         "tags": [
-          "HelperController"
+          "Product"
         ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/UserCredentialBEO"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/UserCredentialBEO"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/UserCredentialBEO"
-              }
+        "parameters": [
+          {
+            "name": "Id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
             }
           }
-        },
-        "responses": {
-          "200": {
-            "description": "Success"
-          }
-        }
-      }
-    },
-    "/api/Login/refresh": {
-      "post": {
-        "tags": [
-          "HelperController"
         ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/RefreshTokenBEO"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/RefreshTokenBEO"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/RefreshTokenBEO"
-              }
-            }
-          }
-        },
         "responses": {
           "200": {
-            "description": "Success"
+            "description": "OK"
           }
         }
       }
@@ -269,11 +291,11 @@
     "/api/Product/products": {
       "get": {
         "tags": [
-          "HelperController"
+          "Product"
         ],
         "responses": {
           "200": {
-            "description": "Success",
+            "description": "OK",
             "content": {
               "text/plain": {
                 "schema": {
@@ -307,7 +329,7 @@
     "/api/Product/product": {
       "get": {
         "tags": [
-          "HelperController"
+          "Product"
         ],
         "parameters": [
           {
@@ -321,7 +343,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Success",
+            "description": "OK",
             "content": {
               "text/plain": {
                 "schema": {
@@ -346,7 +368,7 @@
     "/api/Product/addproduct": {
       "post": {
         "tags": [
-          "HelperController"
+          "Product"
         ],
         "requestBody": {
           "content": {
@@ -369,7 +391,7 @@
         },
         "responses": {
           "200": {
-            "description": "Success",
+            "description": "OK",
             "content": {
               "text/plain": {
                 "schema": {
@@ -394,7 +416,7 @@
     "/api/Product/updateproduct": {
       "put": {
         "tags": [
-          "HelperController"
+          "Product"
         ],
         "requestBody": {
           "content": {
@@ -417,29 +439,7 @@
         },
         "responses": {
           "200": {
-            "description": "Success"
-          }
-        }
-      }
-    },
-    "/api/Product/deleteproduct": {
-      "delete": {
-        "tags": [
-          "HelperController"
-        ],
-        "parameters": [
-          {
-            "name": "Id",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "Success"
+            "description": "OK"
           }
         }
       }
@@ -447,12 +447,12 @@
     "/api/WeatherForecast": {
       "get": {
         "tags": [
-          "HelperController"
+          "WeatherForecast"
         ],
         "operationId": "GetWeatherForecast",
         "responses": {
           "200": {
-            "description": "Success",
+            "description": "OK",
             "content": {
               "text/plain": {
                 "schema": {
@@ -479,6 +479,68 @@
                 }
               }
             }
+          }
+        }
+      }
+    },
+    "/api/DocumentScanningSearch/GetDocuments": {
+      "post": {
+        "tags": [
+          "DocumentScanningSearch"
+        ],
+        "parameters": [
+          {
+            "name": "FromDate",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "pattern": "\\d{4}-\\d{2}-\\d{2}",
+              "type": "string"
+            }
+          },
+          {
+            "name": "ToDate",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "pattern": "\\d{4}-\\d{2}-\\d{2}",
+              "type": "string"
+            }
+          },
+          {
+            "name": "documentId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "page",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "itemsPerPage",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "searchAttribute",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
           }
         }
       }
@@ -568,7 +630,8 @@
             "nullable": true
           }
         },
-        "additionalProperties": false
+        "additionalProperties": false,
+        "readOnly": true
       },
       "WeatherForecast": {
         "type": "object",

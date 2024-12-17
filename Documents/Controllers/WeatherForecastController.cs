@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using TGolla.Swashbuckle.AspNetCore.SwaggerGen;
+
 
 namespace Documents.Controllers
 {

@@ -13,12 +13,9 @@ E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Docu
 E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\bin\Debug\net6.0\Humanizer.dll
 E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\bin\Debug\net6.0\ICSharpCode.SharpZipLib.dll
 E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\bin\Debug\net6.0\Microsoft.AspNetCore.Authorization.dll
-E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\bin\Debug\net6.0\Microsoft.AspNetCore.Metadata.dll
 E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
 E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\bin\Debug\net6.0\Microsoft.Bcl.TimeProvider.dll
 E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
-E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
 E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
@@ -28,8 +25,6 @@ E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Docu
 E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
 E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
 E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
-E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
 E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
 E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
 E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
@@ -58,8 +53,6 @@ E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Docu
 E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
 E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\bin\Debug\net6.0\System.Security.Permissions.dll
 E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\bin\Debug\net6.0\System.Windows.Extensions.dll
-E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\bin\Debug\net6.0\TGolla.AspNetCore.Mvc.Filters.dll
-E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\bin\Debug\net6.0\TGolla.Swashbuckle.AspNetCore.dll
 E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
@@ -192,3 +185,5 @@ D:\gitHup\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\obj\Debug\
 D:\gitHup\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\obj\Debug\net6.0\Documents.genruntimeconfig.cache
 D:\gitHup\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\obj\Debug\net6.0\ref\Documents.dll
 D:\gitHup\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\bin\Debug\net6.0\Swashbuckle.AspNetCore.Annotations.dll
+E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\bin\Debug\net6.0\Swashbuckle.AspNetCore.Annotations.dll
+E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\obj\Debug\net6.0\Documents.sourcelink.json

@@ -34,7 +34,7 @@ namespace Documents.Controllers
 
         }
         [HttpPost]
-        [Route("DocumentScanningSearch")]
+        [Route("GetDocuments")]
         public async Task<dynamic> GetDocuments([Required][RegularExpression(@"\d{4}-\d{2}-\d{2}", ErrorMessage = "FromDate must be in yyyy-MM-dd format.")] string FromDate, [Required][RegularExpression(@"\d{4}-\d{2}-\d{2}", ErrorMessage = "FromDate must be in yyyy-MM-dd format.")] string ToDate, string documentId, int page, int itemsPerPage, string searchAttribute)
         {
             //  string ftpServerIP = Session["FtpServerIP"].ToString(); string ftpPort = Session["FtpPort"].ToString(); string ftpUserId = Session["FtpUserId"].ToString(); string ftpPassword = Session["FtpPassword"].ToString();
