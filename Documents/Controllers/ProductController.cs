@@ -47,7 +47,6 @@ namespace Documents.Controllers
             {
                 return cacheData;
             }
-
             var expirationTime = DateTimeOffset.Now.AddMinutes(5.0);
             cacheData = _dbContext.Products.ToList();
             _cacheService.SetData<IEnumerable<Product>>("product", cacheData, expirationTime);

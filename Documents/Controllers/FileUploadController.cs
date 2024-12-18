@@ -11,7 +11,7 @@ namespace Documents.Controllers
     {
         DBConnection dbConn = new DBConnection();
         DBHelper dbHelper = new DBHelper();
-        Terminal terminal = new Terminal();
+        TerminalLogger terminal = new TerminalLogger();
         public IActionResult Index()
         {
             return View();

@@ -9,6 +9,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Controllers\HelperController.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Audit.EntityFramework.Core" Version="27.3.0" />
     <PackageReference Include="Dapper" Version="2.1.35" />
     <PackageReference Include="ICSharpCode.SharpZipLib.dll" Version="0.85.4.369" />

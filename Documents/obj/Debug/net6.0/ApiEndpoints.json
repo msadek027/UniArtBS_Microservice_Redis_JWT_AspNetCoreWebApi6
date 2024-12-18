@@ -1,5 +1,82 @@
 [
   {
+    "ContainingType": "Documents.Controllers.Category_SubcategoryController",
+    "Method": "GetCategoryList",
+    "RelativePath": "api/Category_Subcategory/GetCategoryList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Documents.Controllers.Category_SubcategoryController",
+    "Method": "GetSubcategoryList",
+    "RelativePath": "api/Category_Subcategory/GetSubcategoryList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Documents.Controllers.Category_SubcategoryController",
+    "Method": "SaveUpdateCategory",
+    "RelativePath": "api/Category_Subcategory/PostCategory",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CategoryId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CategoryName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Documents.Controllers.Category_SubcategoryController",
+    "Method": "SaveUpdateSubcategory",
+    "RelativePath": "api/Category_Subcategory/PostSubcategory",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CategoryId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SubcategoryId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SubcategoryName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Documents.Controllers.Category_SubcategoryController",
+    "Method": "ResetRedisCache",
+    "RelativePath": "api/Category_Subcategory/ResetRedisCache",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Documents.Controllers.DocumentScanningController",
     "Method": "DocUploadMultipleFile",
     "RelativePath": "api/DocumentScanning/DocUploadMultipleFile",
@@ -173,9 +250,60 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Documents.Controllers.DocumentScanningSearchController",
+    "Method": "Get",
+    "RelativePath": "api/DocumentScanningSearch/PushDocumentScanningDataToRedisCache",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Documents.Models.DocumentScanningDataRedisCacheBEO, Documents, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Documents.Controllers.DocumentScanningSearchController",
+    "Method": "ResetRedisCache",
+    "RelativePath": "api/DocumentScanningSearch/ResetRedisCache",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Documents.Controllers.LoginController",
     "Method": "Authentication",
     "RelativePath": "api/Login/Authentication",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Documents.Controllers.LoginController",
+    "Method": "Authentication2",
+    "RelativePath": "api/Login/Authentication2",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -319,26 +447,5 @@
         "StatusCode": 200
       }
     ]
-  },
-  {
-    "ContainingType": "Documents.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "api/WeatherForecast",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Documents.WeatherForecast, Documents, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ],
-    "EndpointName": "GetWeatherForecast"
   }
 ]

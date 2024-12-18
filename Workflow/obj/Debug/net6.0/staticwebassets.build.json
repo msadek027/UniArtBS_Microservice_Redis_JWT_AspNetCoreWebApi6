@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "NVsO4Uzar/ha/bPvOYgmmEaKbWHAJz923+k3R9iJasI=",
+  "Hash": "SWZtajD6QEikqd9MowULftMmVx3LMff68mgHt/P67pE=",
   "Source": "Workflow",
   "BasePath": "_content/Workflow",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

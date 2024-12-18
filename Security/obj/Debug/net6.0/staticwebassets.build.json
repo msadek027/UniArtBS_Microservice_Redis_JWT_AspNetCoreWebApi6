@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "1eUjlwxAjvrpUuLa/RUbmzhd5/FT57oKLeM2Qzy+yXk=",
+  "Hash": "AZia920HiaUSi1DySVqIC/2JRDDIkTxv+AGKJs6NyMs=",
   "Source": "Security",
   "BasePath": "_content/Security",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

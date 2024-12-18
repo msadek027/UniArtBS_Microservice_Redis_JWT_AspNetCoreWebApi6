@@ -20,10 +20,10 @@ namespace Documents.Controllers
     [Authorize]
     [Route("api/[controller]")]
     [ApiController]
-    [SwaggerControllerOrder(6)]
+    [SwaggerControllerOrder(801)]
     public class DocumentScanningController : ControllerBase
     {
-        Terminal terminal = new Terminal();
+        TerminalLogger terminal = new TerminalLogger();
         DBConnection dbConn = new DBConnection();
         DBHelper dbHelper = new DBHelper();
         ExceptionHandler exceptionHandler = new ExceptionHandler();      
@@ -52,7 +52,7 @@ namespace Documents.Controllers
       
             try
             {
-                var terminalHelper = new HelperController();
+                //var terminalHelper = new HelperController();
                 string setTerminal = GetIP();
                 //string setTerminal2 = GetClientIp();
                 
@@ -138,7 +138,7 @@ namespace Documents.Controllers
             var items = new List<string>();
             try
             {
-                var terminalHelper = new HelperController();
+               // var terminalHelper = new HelperController();
                 string setTerminal = Ip;            
 
                 foreach (var file in obj.files)

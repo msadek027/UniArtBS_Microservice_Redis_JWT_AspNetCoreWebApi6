@@ -111,7 +111,7 @@ namespace Documents.Controllers
                 return Unauthorized("Invalid attempt!");
             }
          
-            return Ok(new { Token = newAccessToken, RefreshToken = newJwtToken });
+            return Ok(new { Token = newAccessToken/*, RefreshToken = newJwtToken */});
         }
     }
 }
