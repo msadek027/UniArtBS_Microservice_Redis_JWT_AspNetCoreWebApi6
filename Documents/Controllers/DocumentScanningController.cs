@@ -3,7 +3,7 @@ using Documents.Cache;
 using Documents.Data;
 using Documents.DocumentCommon;
 using Documents.Model;
-using Documents.Models;
+using Documents.Models.BEL;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -26,7 +26,7 @@ namespace Documents.Controllers
         TerminalLogger terminal = new TerminalLogger();
         DBConnection dbConn = new DBConnection();
         DBHelper dbHelper = new DBHelper();
-        ExceptionHandler exceptionHandler = new ExceptionHandler();      
+            
 
         private readonly DbContextClass _dbContext;
         private readonly ICacheService _cacheService;

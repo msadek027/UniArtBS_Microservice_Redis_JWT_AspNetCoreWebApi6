@@ -29,4 +29,8 @@
     <PackageReference Include="TGolla.Swashbuckle.AspNetCore" Version="6.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="GlobalSolutionModels\" />
+  </ItemGroup>
+
 </Project>

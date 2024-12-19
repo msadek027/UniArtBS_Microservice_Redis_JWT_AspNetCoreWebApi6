@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+18bff416e5fdecb13f87ef9161629166c8c7c3c1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a01fd29bccf369e79e28d0f5f4dc5f29daa92372")]
 [assembly: System.Reflection.AssemblyProductAttribute("UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

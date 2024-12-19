@@ -1,5 +1,4 @@
-﻿using Documents.Models;
-using System.Data;
+﻿using System.Data;
 
 namespace Documents.DocumentCommon
 {
@@ -7,8 +6,6 @@ namespace Documents.DocumentCommon
     {
         DBConnection dbConn = new DBConnection();
         DBHelper dbHelper = new DBHelper();
-
-
         public List<UserCredentialDetailsBEO> CheckUserCredential()
         {
 
@@ -21,14 +18,12 @@ namespace Documents.DocumentCommon
                     {
                         UserName = row["UserID"].ToString(),
                         Password = row["NewPassword"].ToString(),
-
                         RoleId = row["RoleID"].ToString(),
                         RoleName = row["RoleName"].ToString(),
                         EmployeeId = row["EmpID"].ToString(),
                         EmployeeName = row["EmpName"].ToString(),
                         Designation = row["Designation"].ToString(),
                         JoiningDate = row["EmploymentDate"].ToString(),
-
 
                     }).ToList();
             return item;

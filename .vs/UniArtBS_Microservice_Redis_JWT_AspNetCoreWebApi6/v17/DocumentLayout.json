@@ -3,60 +3,28 @@
   "WorkspaceRootPath": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\documents\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|solutionrelative:documents\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F11E51E6-CA6F-440B-8A28-A3A2FDB461A1}|Workflow\\Workflow.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\workflow\\workflowcommon\\menuitemview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F11E51E6-CA6F-440B-8A28-A3A2FDB461A1}|Workflow\\Workflow.csproj|solutionrelative:workflow\\workflowcommon\\menuitemview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\documents\\controllers\\documentscanningsearchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|solutionrelative:documents\\controllers\\documentscanningsearchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F11E51E6-CA6F-440B-8A28-A3A2FDB461A1}|Workflow\\Workflow.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\workflow\\workflowcommon\\ftpserverbeo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F11E51E6-CA6F-440B-8A28-A3A2FDB461A1}|Workflow\\Workflow.csproj|solutionrelative:workflow\\workflowcommon\\ftpserverbeo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\documents\\auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|solutionrelative:documents\\auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F11E51E6-CA6F-440B-8A28-A3A2FDB461A1}|Workflow\\Workflow.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\workflow\\workflowcommon\\encryption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F11E51E6-CA6F-440B-8A28-A3A2FDB461A1}|Workflow\\Workflow.csproj|solutionrelative:workflow\\workflowcommon\\encryption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4AB4CFC-2910-4490-9EA7-5B2845812F38}|UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4AB4CFC-2910-4490-9EA7-5B2845812F38}|UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6.csproj|solutionrelative:uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F11E51E6-CA6F-440B-8A28-A3A2FDB461A1}|Workflow\\Workflow.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\workflow\\workflowcommon\\dbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F11E51E6-CA6F-440B-8A28-A3A2FDB461A1}|Workflow\\Workflow.csproj|solutionrelative:workflow\\workflowcommon\\dbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{013FFDA4-E07D-4AAC-A33C-4521E88B1988}|Security\\Security.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\security\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{013FFDA4-E07D-4AAC-A33C-4521E88B1988}|Security\\Security.csproj|solutionrelative:security\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F11E51E6-CA6F-440B-8A28-A3A2FDB461A1}|Workflow\\Workflow.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\workflow\\workflowcommon\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F11E51E6-CA6F-440B-8A28-A3A2FDB461A1}|Workflow\\Workflow.csproj|solutionrelative:workflow\\workflowcommon\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\documents\\models\\dal\\category_subcategorydao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|solutionrelative:documents\\models\\dal\\category_subcategorydao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\documents\\documentcommon\\terminallogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|solutionrelative:documents\\documentcommon\\terminallogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\documents\\documentcommon\\menuitemview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|solutionrelative:documents\\documentcommon\\menuitemview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\documents\\documentcommon\\exceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|solutionrelative:documents\\documentcommon\\exceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\documents\\documentcommon\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|solutionrelative:documents\\documentcommon\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\documents\\controllers\\category_subcategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|solutionrelative:documents\\controllers\\category_subcategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\documents\\models\\bel\\category_subcategorybeo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|solutionrelative:documents\\models\\bel\\category_subcategorybeo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\documents\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|solutionrelative:documents\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\documents\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|solutionrelative:documents\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F11E51E6-CA6F-440B-8A28-A3A2FDB461A1}|Workflow\\Workflow.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\workflow\\workflowcommon\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F11E51E6-CA6F-440B-8A28-A3A2FDB461A1}|Workflow\\Workflow.csproj|solutionrelative:workflow\\workflowcommon\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,184 +42,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Auth.cs",
-              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\Auth.cs",
-              "RelativeDocumentMoniker": "Documents\\Auth.cs",
-              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\Auth.cs",
-              "RelativeToolTip": "Documents\\Auth.cs",
-              "ViewState": "AgIAAHIAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T11:05:20.596Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "Documents\\Controllers\\LoginController.cs",
-              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "Documents\\Controllers\\LoginController.cs",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAawHEAAABTAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T11:03:48.531Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Program.cs",
-              "RelativeDocumentMoniker": "UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Program.cs",
-              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Program.cs",
-              "RelativeToolTip": "UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T10:53:49.031Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Security\\Program.cs",
-              "RelativeDocumentMoniker": "Security\\Program.cs",
-              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Security\\Program.cs",
-              "RelativeToolTip": "Security\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T10:53:38.789Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TerminalLogger.cs",
-              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\DocumentCommon\\TerminalLogger.cs",
-              "RelativeDocumentMoniker": "Documents\\DocumentCommon\\TerminalLogger.cs",
-              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\DocumentCommon\\TerminalLogger.cs",
-              "RelativeToolTip": "Documents\\DocumentCommon\\TerminalLogger.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T10:43:44.329Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ApiResponse.cs",
-              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\DocumentCommon\\ApiResponse.cs",
-              "RelativeDocumentMoniker": "Documents\\DocumentCommon\\ApiResponse.cs",
-              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\DocumentCommon\\ApiResponse.cs",
-              "RelativeToolTip": "Documents\\DocumentCommon\\ApiResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T10:43:34.714Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ExceptionHandler.cs",
-              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\DocumentCommon\\ExceptionHandler.cs",
-              "RelativeDocumentMoniker": "Documents\\DocumentCommon\\ExceptionHandler.cs",
-              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\DocumentCommon\\ExceptionHandler.cs",
-              "RelativeToolTip": "Documents\\DocumentCommon\\ExceptionHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T10:43:29.281Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "MenuItemView.cs",
-              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\DocumentCommon\\MenuItemView.cs",
-              "RelativeDocumentMoniker": "Documents\\DocumentCommon\\MenuItemView.cs",
-              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\DocumentCommon\\MenuItemView.cs",
-              "RelativeToolTip": "Documents\\DocumentCommon\\MenuItemView.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\WorkflowCommon\\MenuItemView.cs",
+              "RelativeDocumentMoniker": "Workflow\\WorkflowCommon\\MenuItemView.cs",
+              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\WorkflowCommon\\MenuItemView.cs",
+              "RelativeToolTip": "Workflow\\WorkflowCommon\\MenuItemView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T10:43:27.226Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Category_SubcategoryBEO.cs",
-              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\Models\\BEL\\Category_SubcategoryBEO.cs",
-              "RelativeDocumentMoniker": "Documents\\Models\\BEL\\Category_SubcategoryBEO.cs",
-              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\Models\\BEL\\Category_SubcategoryBEO.cs",
-              "RelativeToolTip": "Documents\\Models\\BEL\\Category_SubcategoryBEO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T10:12:12.367Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Product.cs",
-              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "Documents\\Models\\Product.cs",
-              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\Models\\Product.cs",
-              "RelativeToolTip": "Documents\\Models\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T09:18:48.082Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Category_SubcategoryDAO.cs",
-              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\Models\\DAL\\Category_SubcategoryDAO.cs",
-              "RelativeDocumentMoniker": "Documents\\Models\\DAL\\Category_SubcategoryDAO.cs",
-              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\Models\\DAL\\Category_SubcategoryDAO.cs",
-              "RelativeToolTip": "Documents\\Models\\DAL\\Category_SubcategoryDAO.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAIAwwFMAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T08:56:41.409Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Category_SubcategoryController.cs",
-              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\Controllers\\Category_SubcategoryController.cs",
-              "RelativeDocumentMoniker": "Documents\\Controllers\\Category_SubcategoryController.cs",
-              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\Controllers\\Category_SubcategoryController.cs",
-              "RelativeToolTip": "Documents\\Controllers\\Category_SubcategoryController.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAIwGEAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T07:40:57.133Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "Documents\\Controllers\\ProductController.cs",
-              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "Documents\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAowFQAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T02:27:38.023Z",
+              "WhenOpened": "2024-12-19T07:10:02.397Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DocumentScanningSearchController.cs",
-              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\Controllers\\DocumentScanningSearchController.cs",
-              "RelativeDocumentMoniker": "Documents\\Controllers\\DocumentScanningSearchController.cs",
-              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\Controllers\\DocumentScanningSearchController.cs",
-              "RelativeToolTip": "Documents\\Controllers\\DocumentScanningSearchController.cs",
-              "ViewState": "AgIAALAAAAAAAAAAAAAAAEkAAAANAAAAAAAAAA==",
+              "Title": "FtpServerBEO.cs",
+              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\WorkflowCommon\\FtpServerBEO.cs",
+              "RelativeDocumentMoniker": "Workflow\\WorkflowCommon\\FtpServerBEO.cs",
+              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\WorkflowCommon\\FtpServerBEO.cs",
+              "RelativeToolTip": "Workflow\\WorkflowCommon\\FtpServerBEO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T02:27:11.697Z",
+              "WhenOpened": "2024-12-19T07:09:59.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Encryption.cs",
+              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\WorkflowCommon\\Encryption.cs",
+              "RelativeDocumentMoniker": "Workflow\\WorkflowCommon\\Encryption.cs",
+              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\WorkflowCommon\\Encryption.cs",
+              "RelativeToolTip": "Workflow\\WorkflowCommon\\Encryption.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T07:09:57.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DBHelper.cs",
+              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\WorkflowCommon\\DBHelper.cs",
+              "RelativeDocumentMoniker": "Workflow\\WorkflowCommon\\DBHelper.cs",
+              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\WorkflowCommon\\DBHelper.cs",
+              "RelativeToolTip": "Workflow\\WorkflowCommon\\DBHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T07:09:56.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DBConnection.cs",
+              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\WorkflowCommon\\DBConnection.cs",
+              "RelativeDocumentMoniker": "Workflow\\WorkflowCommon\\DBConnection.cs",
+              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\WorkflowCommon\\DBConnection.cs",
+              "RelativeToolTip": "Workflow\\WorkflowCommon\\DBConnection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T07:09:54.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\WorkflowCommon\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "Workflow\\WorkflowCommon\\ApiResponse.cs",
+              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\WorkflowCommon\\ApiResponse.cs",
+              "RelativeToolTip": "Workflow\\WorkflowCommon\\ApiResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T07:09:18.909Z",
               "EditorCaption": ""
             }
           ]

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\PublishWebSite\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents</_PublishTargetUrl>
+    <History>True|2024-12-19T02:48:24.7422188Z||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DocConn">
+      <Value>Data Source=AHYAAN%3bInitial Catalog=dbDOC%3bPersist Security Info=False%3bUser Id=sa%3bPassword=123456%3b</Value>
+    </DestinationConnectionStrings>
+    <DestinationConnectionStrings Include="SAConn">
+      <Value>Data Source=AHYAAN%3bInitial Catalog=dbDOC%3bPersist Security Info=False%3bUser Id=sa%3bPassword=123456%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

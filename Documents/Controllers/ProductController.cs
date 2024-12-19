@@ -14,6 +14,7 @@ using System.Threading.Tasks;
 
 namespace Documents.Controllers
 {
+    [ApiExplorerSettings(IgnoreApi = true)]
     [Authorize]
     [Route("api/[controller]")]
     [ApiController]
@@ -115,5 +116,6 @@ namespace Documents.Controllers
             _dbContext.SaveChanges();
         }
     }
+
 }
 

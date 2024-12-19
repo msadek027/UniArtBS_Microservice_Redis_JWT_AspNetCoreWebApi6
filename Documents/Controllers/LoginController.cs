@@ -1,5 +1,4 @@
 ﻿using Documents.DocumentCommon;
-using Documents.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
@@ -8,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Documents.Controllers
 {
-   
+
 
     [EnableCors("CorsPolicy")]
     [Route("api/[controller]")]
@@ -60,6 +59,7 @@ namespace Documents.Controllers
             return Ok(new { Token = token, RefreshToken = refreshToken, RoleId = roleId, EmployeeId = employeeId, EmployeeName = employeeName, Designation = designation, JoiningDate = joiningDate });
                     
         }
+        [ApiExplorerSettings(IgnoreApi = true)]
         [AllowAnonymous]
         [HttpPost("Authentication2")]
         public IActionResult Authentication2([FromBody] UserCredentialBEO userCredential)

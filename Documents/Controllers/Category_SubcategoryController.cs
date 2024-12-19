@@ -20,7 +20,7 @@ namespace Documents.Controllers
         TerminalLogger terminal = new TerminalLogger();
         DBConnection dbConn = new DBConnection();
         DBHelper dbHelper = new DBHelper();
-        ExceptionHandler exceptionHandler = new ExceptionHandler();
+   
         Category_SubcategoryDAO primaryDAO = new Category_SubcategoryDAO();
         private readonly DbContextClass _dbContext;
         private readonly ICacheService _cacheService;

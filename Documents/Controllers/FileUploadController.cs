@@ -1,5 +1,5 @@
 ﻿using Documents.DocumentCommon;
-using Documents.Models;
+using Documents.Models.BEL;
 using ICSharpCode.SharpZipLib.Zip;
 using Microsoft.AspNetCore.Mvc;
 using System.IO.Compression;

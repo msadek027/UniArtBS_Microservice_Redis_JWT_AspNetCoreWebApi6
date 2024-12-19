@@ -14,29 +14,20 @@ using System.Text;
 
 
 DBConnection conn = new DBConnection();
-
 var builder = WebApplication.CreateBuilder(args);
-
 // Access the configuration
 var configuration = builder.Configuration;
-
-//--------
 // Add services to the container
-
 builder.Services.AddScoped<ICacheService, CacheService>();
 builder.Services.AddDbContext<DbContextClass>(options => options.UseSqlServer(configuration.GetConnectionString("SAConn")));
 builder.Services.AddMvc();
-
-
 // Add services to the container.
-
 builder.Services.AddControllers();
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("CorsPolicy", builder => builder.AllowAnyMethod().AllowAnyHeader().AllowCredentials().SetIsOriginAllowed((hosts) => true));
 });
 // JWT Authentication configuration
-
 var key = "This is my first Test Key This is my first Test Key";// Use your actual secret key here, ideally from a secure source
 builder.Services.AddAuthentication(options =>
 {

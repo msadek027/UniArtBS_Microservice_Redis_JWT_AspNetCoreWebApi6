@@ -7,7 +7,7 @@ namespace Documents.Data
 {
     public class DbContextClass: DbContext
     {
-        DBConnection conn= new DBConnection();
+        DBConnection conn = new DBConnection();
         public DbContextClass(DbContextOptions<DbContextClass> options) : base(options)
         {
         }
