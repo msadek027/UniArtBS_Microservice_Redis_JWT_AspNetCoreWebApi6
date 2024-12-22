@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Documents.Cache
+namespace Workflow.Cache
 {
     public interface ICacheService
     {

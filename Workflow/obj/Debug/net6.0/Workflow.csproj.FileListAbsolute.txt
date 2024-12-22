@@ -130,6 +130,8 @@ E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Work
 E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Workflow\bin\Debug\net6.0\Microsoft.OpenApi.dll
 E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Workflow\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
 E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Workflow\bin\Debug\net6.0\Newtonsoft.Json.dll
+E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Workflow\bin\Debug\net6.0\Pipelines.Sockets.Unofficial.dll
+E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Workflow\bin\Debug\net6.0\StackExchange.Redis.dll
 E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Workflow\bin\Debug\net6.0\Swashbuckle.AspNetCore.Annotations.dll
 E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Workflow\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Workflow\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll

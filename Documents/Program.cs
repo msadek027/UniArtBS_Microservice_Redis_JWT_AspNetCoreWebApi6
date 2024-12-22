@@ -23,9 +23,19 @@ builder.Services.AddDbContext<DbContextClass>(options => options.UseSqlServer(co
 builder.Services.AddMvc();
 // Add services to the container.
 builder.Services.AddControllers();
+//builder.Services.AddCors(options =>
+//{
+//    options.AddPolicy("CorsPolicy", builder => builder.AllowAnyMethod().AllowAnyHeader().AllowCredentials().SetIsOriginAllowed((hosts) => true));
+//    options.AddPolicy("AllowAll", builder => builder.AllowAnyMethod().AllowAnyHeader().AllowCredentials().SetIsOriginAllowed((hosts) => true));
+
+//});
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("CorsPolicy", builder => builder.AllowAnyMethod().AllowAnyHeader().AllowCredentials().SetIsOriginAllowed((hosts) => true));
+    options.AddPolicy("AllowSpecificOrigins", builder =>
+        builder.WithOrigins("http://localhost:5069", "http://172.16.201.17:84") // Add allowed origins
+               .AllowAnyMethod()
+               .AllowAnyHeader()
+               .AllowCredentials()); // Use only if necessary
 });
 // JWT Authentication configuration
 var key = "This is my first Test Key This is my first Test Key";// Use your actual secret key here, ideally from a secure source
@@ -90,9 +100,7 @@ builder.Services.AddSwaggerGen(c =>
      c.OrderActionsBy(apiDesc =>   $"{swaggerControllerOrder.SortKey(apiDesc.ActionDescriptor.RouteValues["controller"])}.{apiDesc.HttpMethod}");
 });
 
-
 builder.Services.AddHttpContextAccessor();
-
 builder.Services.Configure<FormOptions>(options =>
 {
     options.MultipartBodyLengthLimit = 104857600; // 100MB (example)
@@ -100,7 +108,7 @@ builder.Services.Configure<FormOptions>(options =>
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+if (app.Environment.IsDevelopment() || app.Environment.IsProduction())
 {
     app.UseSwagger();
     //app.UseSwaggerUI();
@@ -110,7 +118,9 @@ if (app.Environment.IsDevelopment())
     });
 }
 app.UseRouting();
-app.UseCors("CorsPolicy");
+//app.UseCors("CorsPolicy");
+//app.UseCors("AllowAll");
+app.UseCors("AllowSpecificOrigins");
 app.UseAuthentication();
 app.UseAuthorization();
 app.UseEndpoints(endpoints =>

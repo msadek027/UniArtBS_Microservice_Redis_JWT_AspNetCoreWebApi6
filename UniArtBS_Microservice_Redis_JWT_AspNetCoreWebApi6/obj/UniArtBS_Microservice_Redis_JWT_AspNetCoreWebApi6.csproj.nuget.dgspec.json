@@ -105,10 +105,6 @@
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
               "version": "[8.3.0, )"
-            },
-            "TGolla.Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.0.0, )"
             }
           },
           "imports": [

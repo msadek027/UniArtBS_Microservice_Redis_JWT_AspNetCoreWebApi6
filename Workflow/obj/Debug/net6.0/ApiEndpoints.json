@@ -1,23 +1,155 @@
 [
   {
-    "ContainingType": "Workflow.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "WeatherForecast",
+    "ContainingType": "Workflow.Controllers.LoginController",
+    "Method": "Authentication",
+    "RelativePath": "api/Login/Authentication",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Workflow.Controllers.LoginController",
+    "Method": "Refresh",
+    "RelativePath": "api/Login/refresh",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "token",
+        "Type": "Workflow.WorkflowCommon.RefreshTokenBEO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Workflow.Controllers.StageSetupController",
+    "Method": "GetGenerateStageSetupList",
+    "RelativePath": "api/StageSetup/GetGenerateStageSetupList",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
+    "Parameters": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Workflow.WeatherForecast, Workflow, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
+        "Name": "workflowId",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
-    "EndpointName": "GetWeatherForecast"
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Workflow.Controllers.StageSetupController",
+    "Method": "GetStageSetup",
+    "RelativePath": "api/StageSetup/GetStageSetup",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "workflowId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "stageId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Workflow.Controllers.StageSetupController",
+    "Method": "Save",
+    "RelativePath": "api/StageSetup/PostStageSetup",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "System.Collections.Generic.List\u00601[[Workflow.Models.BEL.StageSetupBEO, Workflow, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Workflow.Controllers.StageSetupController",
+    "Method": "Update",
+    "RelativePath": "api/StageSetup/PostStageSetupUpdate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "System.Collections.Generic.List\u00601[[Workflow.Models.BEL.StageSetupBEO, Workflow, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Workflow.Controllers.WorkflowCreationController",
+    "Method": "GetWorkflowList",
+    "RelativePath": "api/WorkflowCreation/GetWorkflowList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CategoryId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "itemsPerPage",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "searchAttribute",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Workflow.Controllers.WorkflowCreationController",
+    "Method": "SaveUpdate",
+    "RelativePath": "api/WorkflowCreation/PostWorkflow",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Workflow.Models.BEL.WorkflowCreationBEO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

@@ -2,7 +2,7 @@
 using StackExchange.Redis;
 using System;
 
-namespace Documents.Cache
+namespace Workflow.Cache
 {
     public class CacheService : ICacheService
     {

@@ -3,28 +3,60 @@
   "WorkspaceRootPath": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F11E51E6-CA6F-440B-8A28-A3A2FDB461A1}|Workflow\\Workflow.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\workflow\\workflowcommon\\menuitemview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F11E51E6-CA6F-440B-8A28-A3A2FDB461A1}|Workflow\\Workflow.csproj|solutionrelative:workflow\\workflowcommon\\menuitemview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A4AB4CFC-2910-4490-9EA7-5B2845812F38}|UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4AB4CFC-2910-4490-9EA7-5B2845812F38}|UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6.csproj|solutionrelative:uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F11E51E6-CA6F-440B-8A28-A3A2FDB461A1}|Workflow\\Workflow.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\workflow\\workflowcommon\\ftpserverbeo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F11E51E6-CA6F-440B-8A28-A3A2FDB461A1}|Workflow\\Workflow.csproj|solutionrelative:workflow\\workflowcommon\\ftpserverbeo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F11E51E6-CA6F-440B-8A28-A3A2FDB461A1}|Workflow\\Workflow.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\workflow\\controllers\\stagesetupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F11E51E6-CA6F-440B-8A28-A3A2FDB461A1}|Workflow\\Workflow.csproj|solutionrelative:workflow\\controllers\\stagesetupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F11E51E6-CA6F-440B-8A28-A3A2FDB461A1}|Workflow\\Workflow.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\workflow\\workflowcommon\\encryption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F11E51E6-CA6F-440B-8A28-A3A2FDB461A1}|Workflow\\Workflow.csproj|solutionrelative:workflow\\workflowcommon\\encryption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\documents\\controllers\\category_subcategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|solutionrelative:documents\\controllers\\category_subcategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F11E51E6-CA6F-440B-8A28-A3A2FDB461A1}|Workflow\\Workflow.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\workflow\\workflowcommon\\dbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F11E51E6-CA6F-440B-8A28-A3A2FDB461A1}|Workflow\\Workflow.csproj|solutionrelative:workflow\\workflowcommon\\dbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F11E51E6-CA6F-440B-8A28-A3A2FDB461A1}|Workflow\\Workflow.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\workflow\\controllers\\workflowcreationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F11E51E6-CA6F-440B-8A28-A3A2FDB461A1}|Workflow\\Workflow.csproj|solutionrelative:workflow\\controllers\\workflowcreationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F11E51E6-CA6F-440B-8A28-A3A2FDB461A1}|Workflow\\Workflow.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\workflow\\workflowcommon\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F11E51E6-CA6F-440B-8A28-A3A2FDB461A1}|Workflow\\Workflow.csproj|solutionrelative:workflow\\workflowcommon\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F11E51E6-CA6F-440B-8A28-A3A2FDB461A1}|Workflow\\Workflow.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\workflow\\models\\dal\\stagesetupdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F11E51E6-CA6F-440B-8A28-A3A2FDB461A1}|Workflow\\Workflow.csproj|solutionrelative:workflow\\models\\dal\\stagesetupdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F11E51E6-CA6F-440B-8A28-A3A2FDB461A1}|Workflow\\Workflow.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\workflow\\workflowcommon\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F11E51E6-CA6F-440B-8A28-A3A2FDB461A1}|Workflow\\Workflow.csproj|solutionrelative:workflow\\workflowcommon\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F11E51E6-CA6F-440B-8A28-A3A2FDB461A1}|Workflow\\Workflow.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\workflow\\models\\dal\\workflowcreationdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F11E51E6-CA6F-440B-8A28-A3A2FDB461A1}|Workflow\\Workflow.csproj|solutionrelative:workflow\\models\\dal\\workflowcreationdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\documents\\controllers\\documentscanningsearchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|solutionrelative:documents\\controllers\\documentscanningsearchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\documents\\controllers\\documentscanningcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|solutionrelative:documents\\controllers\\documentscanningcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F11E51E6-CA6F-440B-8A28-A3A2FDB461A1}|Workflow\\Workflow.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\workflow\\models\\bel\\workflowcreationbeo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F11E51E6-CA6F-440B-8A28-A3A2FDB461A1}|Workflow\\Workflow.csproj|solutionrelative:workflow\\models\\bel\\workflowcreationbeo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F11E51E6-CA6F-440B-8A28-A3A2FDB461A1}|Workflow\\Workflow.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\workflow\\models\\dal\\workflowstagemkckdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F11E51E6-CA6F-440B-8A28-A3A2FDB461A1}|Workflow\\Workflow.csproj|solutionrelative:workflow\\models\\dal\\workflowstagemkckdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F11E51E6-CA6F-440B-8A28-A3A2FDB461A1}|Workflow\\Workflow.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\workflow\\models\\bel\\stagesetupbeo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F11E51E6-CA6F-440B-8A28-A3A2FDB461A1}|Workflow\\Workflow.csproj|solutionrelative:workflow\\models\\bel\\stagesetupbeo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F11E51E6-CA6F-440B-8A28-A3A2FDB461A1}|Workflow\\Workflow.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\workflow\\models\\dal\\permissionsetupdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F11E51E6-CA6F-440B-8A28-A3A2FDB461A1}|Workflow\\Workflow.csproj|solutionrelative:workflow\\models\\dal\\permissionsetupdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F11E51E6-CA6F-440B-8A28-A3A2FDB461A1}|Workflow\\Workflow.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\workflow\\models\\dal\\rptworkflowdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F11E51E6-CA6F-440B-8A28-A3A2FDB461A1}|Workflow\\Workflow.csproj|solutionrelative:workflow\\models\\dal\\rptworkflowdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F11E51E6-CA6F-440B-8A28-A3A2FDB461A1}|Workflow\\Workflow.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\workflow\\models\\bel\\rptworkflowbeo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F11E51E6-CA6F-440B-8A28-A3A2FDB461A1}|Workflow\\Workflow.csproj|solutionrelative:workflow\\models\\bel\\rptworkflowbeo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,79 +75,183 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MenuItemView.cs",
-              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\WorkflowCommon\\MenuItemView.cs",
-              "RelativeDocumentMoniker": "Workflow\\WorkflowCommon\\MenuItemView.cs",
-              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\WorkflowCommon\\MenuItemView.cs",
-              "RelativeToolTip": "Workflow\\WorkflowCommon\\MenuItemView.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Program.cs",
+              "RelativeDocumentMoniker": "UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Program.cs",
+              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Program.cs",
+              "RelativeToolTip": "UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T07:10:02.397Z",
+              "WhenOpened": "2024-12-22T10:47:39.407Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FtpServerBEO.cs",
-              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\WorkflowCommon\\FtpServerBEO.cs",
-              "RelativeDocumentMoniker": "Workflow\\WorkflowCommon\\FtpServerBEO.cs",
-              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\WorkflowCommon\\FtpServerBEO.cs",
-              "RelativeToolTip": "Workflow\\WorkflowCommon\\FtpServerBEO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "StageSetupController.cs",
+              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\Controllers\\StageSetupController.cs",
+              "RelativeDocumentMoniker": "Workflow\\Controllers\\StageSetupController.cs",
+              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\Controllers\\StageSetupController.cs",
+              "RelativeToolTip": "Workflow\\Controllers\\StageSetupController.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAAAIoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T07:09:59.888Z",
+              "WhenOpened": "2024-12-22T10:30:34.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DocumentScanningSearchController.cs",
+              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\Controllers\\DocumentScanningSearchController.cs",
+              "RelativeDocumentMoniker": "Documents\\Controllers\\DocumentScanningSearchController.cs",
+              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\Controllers\\DocumentScanningSearchController.cs",
+              "RelativeToolTip": "Documents\\Controllers\\DocumentScanningSearchController.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAwwF4AAACCAQAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T09:37:00.13Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Encryption.cs",
-              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\WorkflowCommon\\Encryption.cs",
-              "RelativeDocumentMoniker": "Workflow\\WorkflowCommon\\Encryption.cs",
-              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\WorkflowCommon\\Encryption.cs",
-              "RelativeToolTip": "Workflow\\WorkflowCommon\\Encryption.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Category_SubcategoryController.cs",
+              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\Controllers\\Category_SubcategoryController.cs",
+              "RelativeDocumentMoniker": "Documents\\Controllers\\Category_SubcategoryController.cs",
+              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\Controllers\\Category_SubcategoryController.cs",
+              "RelativeToolTip": "Documents\\Controllers\\Category_SubcategoryController.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAwwE8AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T07:09:57.796Z",
+              "WhenOpened": "2024-12-22T09:13:13.072Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "DBHelper.cs",
-              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\WorkflowCommon\\DBHelper.cs",
-              "RelativeDocumentMoniker": "Workflow\\WorkflowCommon\\DBHelper.cs",
-              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\WorkflowCommon\\DBHelper.cs",
-              "RelativeToolTip": "Workflow\\WorkflowCommon\\DBHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "WorkflowCreationController.cs",
+              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\Controllers\\WorkflowCreationController.cs",
+              "RelativeDocumentMoniker": "Workflow\\Controllers\\WorkflowCreationController.cs",
+              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\Controllers\\WorkflowCreationController.cs",
+              "RelativeToolTip": "Workflow\\Controllers\\WorkflowCreationController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAhwC4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T07:09:56.034Z",
+              "WhenOpened": "2024-12-22T09:08:40.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WorkflowStageMkCkDAO.cs",
+              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\Models\\DAL\\WorkflowStageMkCkDAO.cs",
+              "RelativeDocumentMoniker": "Workflow\\Models\\DAL\\WorkflowStageMkCkDAO.cs",
+              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\Models\\DAL\\WorkflowStageMkCkDAO.cs",
+              "RelativeToolTip": "Workflow\\Models\\DAL\\WorkflowStageMkCkDAO.cs",
+              "ViewState": "AgIAACsBAAAAAAAAAAD4vxIBAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T08:04:22.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WorkflowCreationBEO.cs",
+              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\Models\\BEL\\WorkflowCreationBEO.cs",
+              "RelativeDocumentMoniker": "Workflow\\Models\\BEL\\WorkflowCreationBEO.cs",
+              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\Models\\BEL\\WorkflowCreationBEO.cs",
+              "RelativeToolTip": "Workflow\\Models\\BEL\\WorkflowCreationBEO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T07:53:09.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DocumentScanningController.cs",
+              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\Controllers\\DocumentScanningController.cs",
+              "RelativeDocumentMoniker": "Documents\\Controllers\\DocumentScanningController.cs",
+              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\Controllers\\DocumentScanningController.cs",
+              "RelativeToolTip": "Documents\\Controllers\\DocumentScanningController.cs",
+              "ViewState": "AgIAAM4AAAAAAAAAAAAwwMgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T07:50:26.107Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "DBConnection.cs",
-              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\WorkflowCommon\\DBConnection.cs",
-              "RelativeDocumentMoniker": "Workflow\\WorkflowCommon\\DBConnection.cs",
-              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\WorkflowCommon\\DBConnection.cs",
-              "RelativeToolTip": "Workflow\\WorkflowCommon\\DBConnection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "StageSetupDAO.cs",
+              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\Models\\DAL\\StageSetupDAO.cs",
+              "RelativeDocumentMoniker": "Workflow\\Models\\DAL\\StageSetupDAO.cs",
+              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\Models\\DAL\\StageSetupDAO.cs",
+              "RelativeToolTip": "Workflow\\Models\\DAL\\StageSetupDAO.cs",
+              "ViewState": "AgIAALoBAAAAAAAAAAAuwMcBAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T07:09:54.141Z",
+              "WhenOpened": "2024-12-22T07:47:24.113Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ApiResponse.cs",
-              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\WorkflowCommon\\ApiResponse.cs",
-              "RelativeDocumentMoniker": "Workflow\\WorkflowCommon\\ApiResponse.cs",
-              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\WorkflowCommon\\ApiResponse.cs",
-              "RelativeToolTip": "Workflow\\WorkflowCommon\\ApiResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "WorkflowCreationDAO.cs",
+              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\Models\\DAL\\WorkflowCreationDAO.cs",
+              "RelativeDocumentMoniker": "Workflow\\Models\\DAL\\WorkflowCreationDAO.cs",
+              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\Models\\DAL\\WorkflowCreationDAO.cs",
+              "RelativeToolTip": "Workflow\\Models\\DAL\\WorkflowCreationDAO.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAuwDwAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T07:09:18.909Z",
+              "WhenOpened": "2024-12-22T07:47:12.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RptWorkflowDAO.cs",
+              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\Models\\DAL\\RptWorkflowDAO.cs",
+              "RelativeDocumentMoniker": "Workflow\\Models\\DAL\\RptWorkflowDAO.cs",
+              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\Models\\DAL\\RptWorkflowDAO.cs",
+              "RelativeToolTip": "Workflow\\Models\\DAL\\RptWorkflowDAO.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAawBMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T07:47:03.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PermissionSetupDAO.cs",
+              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\Models\\DAL\\PermissionSetupDAO.cs",
+              "RelativeDocumentMoniker": "Workflow\\Models\\DAL\\PermissionSetupDAO.cs",
+              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\Models\\DAL\\PermissionSetupDAO.cs",
+              "RelativeToolTip": "Workflow\\Models\\DAL\\PermissionSetupDAO.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAgwAsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T07:46:41.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StageSetupBEO.cs",
+              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\Models\\BEL\\StageSetupBEO.cs",
+              "RelativeDocumentMoniker": "Workflow\\Models\\BEL\\StageSetupBEO.cs",
+              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\Models\\BEL\\StageSetupBEO.cs",
+              "RelativeToolTip": "Workflow\\Models\\BEL\\StageSetupBEO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T07:46:28.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RptWorkflowBEO.cs",
+              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\Models\\BEL\\RptWorkflowBEO.cs",
+              "RelativeDocumentMoniker": "Workflow\\Models\\BEL\\RptWorkflowBEO.cs",
+              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\Models\\BEL\\RptWorkflowBEO.cs",
+              "RelativeToolTip": "Workflow\\Models\\BEL\\RptWorkflowBEO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T07:46:10.842Z",
               "EditorCaption": ""
             }
           ]
