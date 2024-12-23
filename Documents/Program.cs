@@ -31,12 +31,14 @@ builder.Services.AddControllers();
 //});
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowSpecificOrigins", builder =>
-        builder.WithOrigins("http://localhost:5069", "http://172.16.201.17:84") // Add allowed origins
+    options.AddPolicy("AllowAll", builder =>
+    {
+        builder.AllowAnyOrigin()
                .AllowAnyMethod()
-               .AllowAnyHeader()
-               .AllowCredentials()); // Use only if necessary
+               .AllowAnyHeader();
+    });
 });
+
 // JWT Authentication configuration
 var key = "This is my first Test Key This is my first Test Key";// Use your actual secret key here, ideally from a secure source
 builder.Services.AddAuthentication(options =>
@@ -119,8 +121,8 @@ if (app.Environment.IsDevelopment() || app.Environment.IsProduction())
 }
 app.UseRouting();
 //app.UseCors("CorsPolicy");
-//app.UseCors("AllowAll");
-app.UseCors("AllowSpecificOrigins");
+app.UseCors("AllowAll");
+//app.UseCors("AllowSpecificOrigins");
 app.UseAuthentication();
 app.UseAuthorization();
 app.UseEndpoints(endpoints =>

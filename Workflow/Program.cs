@@ -11,6 +11,7 @@ using Microsoft.OpenApi.Models;
 using System.Reflection;
 using System.Text;
 using Workflow.Data;
+using Microsoft.AspNetCore.Builder;
 
 
 DBConnection conn = new DBConnection();
@@ -32,12 +33,16 @@ builder.Services.AddControllers();
 // Add services to the container.
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowSpecificOrigins", builder =>
-        builder.WithOrigins("http://localhost:5069", "http://172.16.201.17:84") // Add allowed origins
+    options.AddPolicy("AllowAll", builder =>
+    {
+        builder.AllowAnyOrigin()
                .AllowAnyMethod()
-               .AllowAnyHeader()
-               .AllowCredentials()); // Use only if necessary
+               .AllowAnyHeader();
+    });
 });
+
+
+
 
 // JWT Authentication configuration
 var key = "This is my first Test Key This is my first Test Key";// Use your actual secret key here, ideally from a secure source
@@ -113,22 +118,23 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment() || app.Environment.IsProduction())
 {
     app.UseSwagger();
-    //app.UseSwaggerUI();
     app.UseSwaggerUI(options =>
     {
         options.DefaultModelsExpandDepth(-1); // Disables displaying models (schemas)
+        // Swagger endpoints for the API documentation
         options.SwaggerEndpoint("http://localhost:5069/swagger/v1/swagger.json", "Workflow v1");
-        //options.SwaggerEndpoint("http://localhost:5129/swagger/v1/swagger.json", "Documents v2");
-        options.SwaggerEndpoint("http://172.16.201.17:84/swagger/index.html", "Documents v1");
-       // options.SwaggerEndpoint("http://localhost:5129/swagger/v1/swagger.json", "Documents v2");  
-
-      //  options.RoutePrefix = string.Empty; // This makes Swagger available at the root URL (e.g., https://localhost:5001/)
+        options.SwaggerEndpoint("http://172.16.201.17:84/swagger/index.html", "Documents v1");   // Corrected to swagger.json
+                                                                                                     // Inject custom JavaScript
+        options.InjectJavascript("/swagger/js/custom-swagger.js"); // Relative path to your JS file
     });
+
+
 }
+
 app.UseRouting();
 //app.UseCors("CorsPolicy");
-//app.UseCors("AllowAll");
-app.UseCors("AllowSpecificOrigins");
+app.UseCors("AllowAll");
+//app.UseCors("AllowSpecificOrigins");
 
 app.UseAuthentication();
 app.UseAuthorization();
