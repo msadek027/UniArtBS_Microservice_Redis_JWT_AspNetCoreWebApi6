@@ -1,12 +1,228 @@
 {
   "Version": 1,
-  "Hash": "SWZtajD6QEikqd9MowULftMmVx3LMff68mgHt/P67pE=",
+  "Hash": "elSO0APW7JUJFIqAguDq/3tFikVxGJ4kfklsG+GMU7E=",
   "Source": "Workflow",
   "BasePath": "_content/Workflow",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "Workflow\\wwwroot",
+      "Source": "Workflow",
+      "ContentRoot": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\wwwroot\\",
+      "BasePath": "_content/Workflow",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\wwwroot\\swagger\\custom-swagger.js",
+      "SourceId": "Workflow",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\wwwroot\\",
+      "BasePath": "_content/Workflow",
+      "RelativePath": "swagger/custom-swagger#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wyeuvutpwg",
+      "Integrity": "SG4oVl8Pxx5FBb5OJ3rxi7XHT6HYLi9RlRV8IBIb/SA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\swagger\\custom-swagger.js"
+    },
+    {
+      "Identity": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\wwwroot\\swagger\\swagger-ui.css",
+      "SourceId": "Workflow",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\wwwroot\\",
+      "BasePath": "_content/Workflow",
+      "RelativePath": "swagger/swagger-ui#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jgojh81ikw",
+      "Integrity": "bZxFU1tvhHfbafHH3N2BGTmJN+4WArJiqQAShvVPjNM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\swagger\\swagger-ui.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "swagger/custom-swagger.js",
+      "AssetFile": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\wwwroot\\swagger\\custom-swagger.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1248"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SG4oVl8Pxx5FBb5OJ3rxi7XHT6HYLi9RlRV8IBIb/SA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Dec 2024 11:01:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SG4oVl8Pxx5FBb5OJ3rxi7XHT6HYLi9RlRV8IBIb/SA="
+        }
+      ]
+    },
+    {
+      "Route": "swagger/custom-swagger.wyeuvutpwg.js",
+      "AssetFile": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\wwwroot\\swagger\\custom-swagger.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1248"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SG4oVl8Pxx5FBb5OJ3rxi7XHT6HYLi9RlRV8IBIb/SA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Dec 2024 11:01:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wyeuvutpwg"
+        },
+        {
+          "Name": "label",
+          "Value": "swagger/custom-swagger.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SG4oVl8Pxx5FBb5OJ3rxi7XHT6HYLi9RlRV8IBIb/SA="
+        }
+      ]
+    },
+    {
+      "Route": "swagger/swagger-ui.css",
+      "AssetFile": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\wwwroot\\swagger\\swagger-ui.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "202771"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bZxFU1tvhHfbafHH3N2BGTmJN+4WArJiqQAShvVPjNM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Dec 2024 10:35:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bZxFU1tvhHfbafHH3N2BGTmJN+4WArJiqQAShvVPjNM="
+        }
+      ]
+    },
+    {
+      "Route": "swagger/swagger-ui.jgojh81ikw.css",
+      "AssetFile": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\wwwroot\\swagger\\swagger-ui.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "202771"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bZxFU1tvhHfbafHH3N2BGTmJN+4WArJiqQAShvVPjNM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Dec 2024 10:35:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jgojh81ikw"
+        },
+        {
+          "Name": "label",
+          "Value": "swagger/swagger-ui.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bZxFU1tvhHfbafHH3N2BGTmJN+4WArJiqQAShvVPjNM="
+        }
+      ]
+    }
+  ]
 }

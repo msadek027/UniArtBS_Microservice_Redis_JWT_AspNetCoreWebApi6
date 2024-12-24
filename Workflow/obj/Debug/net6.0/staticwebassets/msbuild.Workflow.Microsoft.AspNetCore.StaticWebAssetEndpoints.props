@@ -1,0 +1,28 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/Workflow/swagger/custom-swagger.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\swagger\custom-swagger.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-SG4oVl8Pxx5FBb5OJ3rxi7XHT6HYLi9RlRV8IBIb/SA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1248"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022SG4oVl8Pxx5FBb5OJ3rxi7XHT6HYLi9RlRV8IBIb/SA=\u0022"},{"Name":"Last-Modified","Value":"Tue, 24 Dec 2024 11:01:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Workflow/swagger/custom-swagger.wyeuvutpwg.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\swagger\custom-swagger.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"wyeuvutpwg"},{"Name":"integrity","Value":"sha256-SG4oVl8Pxx5FBb5OJ3rxi7XHT6HYLi9RlRV8IBIb/SA="},{"Name":"label","Value":"_content/Workflow/swagger/custom-swagger.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1248"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022SG4oVl8Pxx5FBb5OJ3rxi7XHT6HYLi9RlRV8IBIb/SA=\u0022"},{"Name":"Last-Modified","Value":"Tue, 24 Dec 2024 11:01:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Workflow/swagger/swagger-ui.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\swagger\swagger-ui.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-bZxFU1tvhHfbafHH3N2BGTmJN\u002B4WArJiqQAShvVPjNM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"202771"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022bZxFU1tvhHfbafHH3N2BGTmJN\u002B4WArJiqQAShvVPjNM=\u0022"},{"Name":"Last-Modified","Value":"Tue, 24 Dec 2024 10:35:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Workflow/swagger/swagger-ui.jgojh81ikw.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\swagger\swagger-ui.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"jgojh81ikw"},{"Name":"integrity","Value":"sha256-bZxFU1tvhHfbafHH3N2BGTmJN\u002B4WArJiqQAShvVPjNM="},{"Name":"label","Value":"_content/Workflow/swagger/swagger-ui.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"202771"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022bZxFU1tvhHfbafHH3N2BGTmJN\u002B4WArJiqQAShvVPjNM=\u0022"},{"Name":"Last-Modified","Value":"Tue, 24 Dec 2024 10:35:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

@@ -2,6 +2,10 @@
   "openapi": "3.0.1",
   "info": {
     "title": "JWT Authorization Microservice Redis Cache AspNetCoreWebApi6",
+    "contact": {
+      "name": "Documents v1",
+      "url": "http://172.16.201.17:84/swagger/index.html"
+    },
     "version": "v1"
   },
   "paths": {

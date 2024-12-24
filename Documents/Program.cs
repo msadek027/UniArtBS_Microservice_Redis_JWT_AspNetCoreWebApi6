@@ -29,16 +29,24 @@ builder.Services.AddControllers();
 //    options.AddPolicy("AllowAll", builder => builder.AllowAnyMethod().AllowAnyHeader().AllowCredentials().SetIsOriginAllowed((hosts) => true));
 
 //});
+//builder.Services.AddCors(options =>
+//{
+//    options.AddPolicy("AllowAll", builder =>
+//    {
+//        builder.AllowAnyOrigin()
+//               .AllowAnyMethod()
+//               .AllowAnyHeader();
+//    });
+//});
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowAll", builder =>
+    options.AddPolicy("AllowSwaggerAggregator", policy =>
     {
-        builder.AllowAnyOrigin()
-               .AllowAnyMethod()
-               .AllowAnyHeader();
+        policy.AllowAnyHeader()
+              .AllowAnyMethod()
+              .WithOrigins("http://localhost:5069"); // Add the domain of your Swagger UI
     });
 });
-
 // JWT Authentication configuration
 var key = "This is my first Test Key This is my first Test Key";// Use your actual secret key here, ideally from a secure source
 builder.Services.AddAuthentication(options =>
@@ -121,8 +129,9 @@ if (app.Environment.IsDevelopment() || app.Environment.IsProduction())
 }
 app.UseRouting();
 //app.UseCors("CorsPolicy");
-app.UseCors("AllowAll");
+//app.UseCors("AllowAll");
 //app.UseCors("AllowSpecificOrigins");
+app.UseCors("AllowSwaggerAggregator");
 app.UseAuthentication();
 app.UseAuthorization();
 app.UseEndpoints(endpoints =>

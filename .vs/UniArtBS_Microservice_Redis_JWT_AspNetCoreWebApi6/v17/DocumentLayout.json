@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F11E51E6-CA6F-440B-8A28-A3A2FDB461A1}|Workflow\\Workflow.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\workflow\\wwwroot\\swagger\\custom-swagger.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F11E51E6-CA6F-440B-8A28-A3A2FDB461A1}|Workflow\\Workflow.csproj|solutionrelative:workflow\\wwwroot\\swagger\\custom-swagger.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F11E51E6-CA6F-440B-8A28-A3A2FDB461A1}|Workflow\\Workflow.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\workflow\\wwwroot\\swagger\\swagger-ui.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F11E51E6-CA6F-440B-8A28-A3A2FDB461A1}|Workflow\\Workflow.csproj|solutionrelative:workflow\\wwwroot\\swagger\\swagger-ui.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F11E51E6-CA6F-440B-8A28-A3A2FDB461A1}|Workflow\\Workflow.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\workflow\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F11E51E6-CA6F-440B-8A28-A3A2FDB461A1}|Workflow\\Workflow.csproj|solutionrelative:workflow\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F11E51E6-CA6F-440B-8A28-A3A2FDB461A1}|Workflow\\Workflow.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\workflow\\js\\custom-swagger.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{F11E51E6-CA6F-440B-8A28-A3A2FDB461A1}|Workflow\\Workflow.csproj|solutionrelative:workflow\\js\\custom-swagger.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\documents\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|solutionrelative:documents\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,41 +30,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "custom-swagger.js",
-              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\js\\custom-swagger.js",
-              "RelativeDocumentMoniker": "Workflow\\js\\custom-swagger.js",
-              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\js\\custom-swagger.js",
-              "RelativeToolTip": "Workflow\\js\\custom-swagger.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-12-23T10:53:28.83Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\Program.cs",
-              "RelativeDocumentMoniker": "Workflow\\Program.cs",
-              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\Program.cs",
-              "RelativeToolTip": "Workflow\\Program.cs",
-              "ViewState": "AgIAAHYAAAAAAAAAAAAcwH0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T02:57:40.841Z",
+              "Title": "custom-swagger.js",
+              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\wwwroot\\swagger\\custom-swagger.js",
+              "RelativeDocumentMoniker": "Workflow\\wwwroot\\swagger\\custom-swagger.js",
+              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\wwwroot\\swagger\\custom-swagger.js",
+              "RelativeToolTip": "Workflow\\wwwroot\\swagger\\custom-swagger.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-24T10:37:24.971Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\Program.cs",
-              "RelativeDocumentMoniker": "Documents\\Program.cs",
-              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\Program.cs",
-              "RelativeToolTip": "Documents\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\Program.cs",
+              "RelativeDocumentMoniker": "Workflow\\Program.cs",
+              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\Program.cs",
+              "RelativeToolTip": "Workflow\\Program.cs",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAAAI0AAABbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T02:57:28.854Z",
+              "WhenOpened": "2024-12-24T10:26:36.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "swagger-ui.css",
+              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\wwwroot\\swagger\\swagger-ui.css",
+              "RelativeDocumentMoniker": "Workflow\\wwwroot\\swagger\\swagger-ui.css",
+              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\wwwroot\\swagger\\swagger-ui.css",
+              "RelativeToolTip": "Workflow\\wwwroot\\swagger\\swagger-ui.css",
+              "ViewState": "AgIAAM0gAAAAAAAAAAAAACUmAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-24T10:23:29.696Z",
               "EditorCaption": ""
             }
           ]

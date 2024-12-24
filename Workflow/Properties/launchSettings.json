@@ -17,7 +17,7 @@
       "applicationUrl": "http://localhost:5069",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
-      }
+      }     
     },
     "IIS Express": {
       "commandName": "IISExpress",
@@ -27,5 +27,8 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     }
+  },
+  "HotReload": {
+    "exclude": [ "swagger-ui.css" ]
   }
 }

@@ -12,12 +12,16 @@ using System.Reflection;
 using System.Text;
 using Workflow.Data;
 using Microsoft.AspNetCore.Builder;
+using Microsoft.Extensions.FileProviders;
+using Microsoft.OpenApi.Any;
+using Microsoft.OpenApi.Interfaces;
 
 
 DBConnection conn = new DBConnection();
 var builder = WebApplication.CreateBuilder(args);
 // Access the configuration
 var configuration = builder.Configuration;
+
 // Add services to the container
 builder.Services.AddScoped<ICacheService, CacheService>();
 builder.Services.AddDbContext<DbContextClass>(options => options.UseSqlServer(configuration.GetConnectionString("SAConn")));
@@ -31,18 +35,26 @@ builder.Services.AddControllers();
 //});
 
 // Add services to the container.
+//builder.Services.AddCors(options =>
+//{
+//    options.AddPolicy("AllowAll", builder =>
+//    {
+//        builder.AllowAnyOrigin()
+//               .AllowAnyMethod()
+//               .AllowAnyHeader();
+//    });
+//});
+
+
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowAll", builder =>
+    options.AddPolicy("AllowSwaggerAggregator", policy =>
     {
-        builder.AllowAnyOrigin()
-               .AllowAnyMethod()
-               .AllowAnyHeader();
+        policy.AllowAnyHeader()
+              .AllowAnyMethod()
+              .WithOrigins("http://localhost:5069"); // Add the domain of your Swagger UI
     });
 });
-
-
-
 
 // JWT Authentication configuration
 var key = "This is my first Test Key This is my first Test Key";// Use your actual secret key here, ideally from a secure source
@@ -77,20 +89,24 @@ builder.Services.AddSingleton<IJwtAuth>(new Auth(key));
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
+
 builder.Services.AddSwaggerGen(c =>
 {
     //  c.SwaggerDoc("v1", new OpenApiInfo { Title = "JSON Web JWT Token ASP.NET Core Web Api 5.0", Version = "v1" });
     c.EnableAnnotations();
+ 
     c.SwaggerDoc("v1", new OpenApiInfo
     {
         Title = "JWT Authorization Microservice Redis Cache AspNetCoreWebApi6",
-        Version = "v1"
+        Version = "v1",
+        Contact = new OpenApiContact
+        {
+            Name = "Documents v1",
+            Url = new Uri("http://172.16.201.17:84/swagger/index.html")          
+        },
+      
     });
-    c.SwaggerDoc("v2", new OpenApiInfo
-    {
-        Title = "Another API",
-        Version = "v2"
-    });
+    
     c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme()
     {
         Name = "Authorization",
@@ -113,29 +129,27 @@ builder.Services.Configure<FormOptions>(options =>
     options.MultipartBodyLengthLimit = 104857600; // 100MB (example)
 });
 var app = builder.Build();
+app.UseStaticFiles();
 
-// Configure the HTTP request pipeline.
+// Configure the HTTP request pipeline
 if (app.Environment.IsDevelopment() || app.Environment.IsProduction())
 {
     app.UseSwagger();
     app.UseSwaggerUI(options =>
     {
-        options.DefaultModelsExpandDepth(-1); // Disables displaying models (schemas)
-        // Swagger endpoints for the API documentation
+        options.DefaultModelsExpandDepth(-1); // Disables displaying models (schemas)     
         options.SwaggerEndpoint("http://localhost:5069/swagger/v1/swagger.json", "Workflow v1");
-        options.SwaggerEndpoint("http://172.16.201.17:84/swagger/index.html", "Documents v1");   // Corrected to swagger.json
-                                                                                                     // Inject custom JavaScript
-        options.InjectJavascript("/swagger/js/custom-swagger.js"); // Relative path to your JS file
+        options.SwaggerEndpoint("http://localhost:5069/swagger/v1/swagger.json", "Documents v1");
+        options.InjectStylesheet("/swagger/swagger-ui.css");
+        options.InjectJavascript("/swagger/custom-swagger.js"); // Path relative to wwwroot  
     });
-
-
 }
 
 app.UseRouting();
 //app.UseCors("CorsPolicy");
-app.UseCors("AllowAll");
+//app.UseCors("AllowAll");
 //app.UseCors("AllowSpecificOrigins");
-
+app.UseCors("AllowSwaggerAggregator");
 app.UseAuthentication();
 app.UseAuthorization();
 app.UseEndpoints(endpoints =>

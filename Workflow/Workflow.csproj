@@ -20,16 +20,20 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageReference Include="StackExchange.Redis" Version="2.8.22" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
     <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="7.2.0" />
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.3.0" />
-    <PackageReference Include="TGolla.Swashbuckle.AspNetCore" Version="6.0.0" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Models\DAL\" />
     <Folder Include="Data\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\swagger\custom-swagger.js" />
   </ItemGroup>
 
 </Project>

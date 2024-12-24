@@ -1,5 +1,170 @@
 {
   "Version": 1,
   "ManifestType": "Build",
-  "Endpoints": []
+  "Endpoints": [
+    {
+      "Route": "swagger/custom-swagger.js",
+      "AssetFile": "swagger/custom-swagger.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1248"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SG4oVl8Pxx5FBb5OJ3rxi7XHT6HYLi9RlRV8IBIb/SA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Dec 2024 11:01:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SG4oVl8Pxx5FBb5OJ3rxi7XHT6HYLi9RlRV8IBIb/SA="
+        }
+      ]
+    },
+    {
+      "Route": "swagger/custom-swagger.wyeuvutpwg.js",
+      "AssetFile": "swagger/custom-swagger.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1248"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SG4oVl8Pxx5FBb5OJ3rxi7XHT6HYLi9RlRV8IBIb/SA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Dec 2024 11:01:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wyeuvutpwg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SG4oVl8Pxx5FBb5OJ3rxi7XHT6HYLi9RlRV8IBIb/SA="
+        },
+        {
+          "Name": "label",
+          "Value": "swagger/custom-swagger.js"
+        }
+      ]
+    },
+    {
+      "Route": "swagger/swagger-ui.css",
+      "AssetFile": "swagger/swagger-ui.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "202771"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bZxFU1tvhHfbafHH3N2BGTmJN+4WArJiqQAShvVPjNM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Dec 2024 10:35:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bZxFU1tvhHfbafHH3N2BGTmJN+4WArJiqQAShvVPjNM="
+        }
+      ]
+    },
+    {
+      "Route": "swagger/swagger-ui.jgojh81ikw.css",
+      "AssetFile": "swagger/swagger-ui.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "202771"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bZxFU1tvhHfbafHH3N2BGTmJN+4WArJiqQAShvVPjNM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Dec 2024 10:35:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jgojh81ikw"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bZxFU1tvhHfbafHH3N2BGTmJN+4WArJiqQAShvVPjNM="
+        },
+        {
+          "Name": "label",
+          "Value": "swagger/swagger-ui.css"
+        }
+      ]
+    }
+  ]
 }
