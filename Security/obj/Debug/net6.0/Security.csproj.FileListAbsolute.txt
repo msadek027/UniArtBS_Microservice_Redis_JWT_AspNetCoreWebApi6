@@ -192,3 +192,4 @@ E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Secu
 E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Security\obj\Debug\net6.0\Security.pdb
 E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Security\obj\Debug\net6.0\Security.genruntimeconfig.cache
 E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Security\obj\Debug\net6.0\ref\Security.dll
+E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Security\bin\Debug\net6.0\Security.staticwebassets.runtime.json

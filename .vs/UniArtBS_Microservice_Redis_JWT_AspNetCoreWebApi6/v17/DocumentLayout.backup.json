@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F11E51E6-CA6F-440B-8A28-A3A2FDB461A1}|Workflow\\Workflow.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\workflow\\wwwroot\\swagger\\custom-swagger.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{F11E51E6-CA6F-440B-8A28-A3A2FDB461A1}|Workflow\\Workflow.csproj|solutionrelative:workflow\\wwwroot\\swagger\\custom-swagger.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\documents\\controllers\\documentsharingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|solutionrelative:documents\\controllers\\documentsharingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F11E51E6-CA6F-440B-8A28-A3A2FDB461A1}|Workflow\\Workflow.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\workflow\\wwwroot\\swagger\\swagger-ui.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{F11E51E6-CA6F-440B-8A28-A3A2FDB461A1}|Workflow\\Workflow.csproj|solutionrelative:workflow\\wwwroot\\swagger\\swagger-ui.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\documents\\controllers\\documentdistributioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|solutionrelative:documents\\controllers\\documentdistributioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F11E51E6-CA6F-440B-8A28-A3A2FDB461A1}|Workflow\\Workflow.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\workflow\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F11E51E6-CA6F-440B-8A28-A3A2FDB461A1}|Workflow\\Workflow.csproj|solutionrelative:workflow\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\documents\\models\\bel\\documentdistributionsharingbeo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|solutionrelative:documents\\models\\bel\\documentdistributionsharingbeo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\documents\\controllers\\documentscanningcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|solutionrelative:documents\\controllers\\documentscanningcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|e:\\vs2022\\microserviceapp\\uniartbs_microservice_redis_jwt_aspnetcorewebapi6\\documents\\models\\bel\\documentscanningbeo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0782C2B0-0D04-4D82-8D1B-0362E5C0ADC2}|Documents\\Documents.csproj|solutionrelative:documents\\models\\bel\\documentscanningbeo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,40 +39,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "custom-swagger.js",
-              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\wwwroot\\swagger\\custom-swagger.js",
-              "RelativeDocumentMoniker": "Workflow\\wwwroot\\swagger\\custom-swagger.js",
-              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\wwwroot\\swagger\\custom-swagger.js",
-              "RelativeToolTip": "Workflow\\wwwroot\\swagger\\custom-swagger.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-12-24T10:37:24.971Z",
+              "Title": "DocumentSharingController.cs",
+              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\Controllers\\DocumentSharingController.cs",
+              "RelativeDocumentMoniker": "Documents\\Controllers\\DocumentSharingController.cs",
+              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\Controllers\\DocumentSharingController.cs",
+              "RelativeToolTip": "Documents\\Controllers\\DocumentSharingController.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAD4v2YAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T09:42:55.899Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\Program.cs",
-              "RelativeDocumentMoniker": "Workflow\\Program.cs",
-              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\Program.cs",
-              "RelativeToolTip": "Workflow\\Program.cs",
-              "ViewState": "AgIAAIQAAAAAAAAAAAAAAI0AAABbAAAAAAAAAA==",
+              "Title": "DocumentDistributionSharingBEO.cs",
+              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\Models\\BEL\\DocumentDistributionSharingBEO.cs",
+              "RelativeDocumentMoniker": "Documents\\Models\\BEL\\DocumentDistributionSharingBEO.cs",
+              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\Models\\BEL\\DocumentDistributionSharingBEO.cs",
+              "RelativeToolTip": "Documents\\Models\\BEL\\DocumentDistributionSharingBEO.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAuwCIAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T10:26:36.007Z",
+              "WhenOpened": "2024-12-26T05:30:28.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DocumentScanningBEO.cs",
+              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\Models\\BEL\\DocumentScanningBEO.cs",
+              "RelativeDocumentMoniker": "Documents\\Models\\BEL\\DocumentScanningBEO.cs",
+              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\Models\\BEL\\DocumentScanningBEO.cs",
+              "RelativeToolTip": "Documents\\Models\\BEL\\DocumentScanningBEO.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T04:32:06.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DocumentScanningController.cs",
+              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\Controllers\\DocumentScanningController.cs",
+              "RelativeDocumentMoniker": "Documents\\Controllers\\DocumentScanningController.cs",
+              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\Controllers\\DocumentScanningController.cs",
+              "RelativeToolTip": "Documents\\Controllers\\DocumentScanningController.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAuwNUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T03:27:54.856Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "swagger-ui.css",
-              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\wwwroot\\swagger\\swagger-ui.css",
-              "RelativeDocumentMoniker": "Workflow\\wwwroot\\swagger\\swagger-ui.css",
-              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\wwwroot\\swagger\\swagger-ui.css",
-              "RelativeToolTip": "Workflow\\wwwroot\\swagger\\swagger-ui.css",
-              "ViewState": "AgIAAM0gAAAAAAAAAAAAACUmAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-24T10:23:29.696Z",
+              "Title": "DocumentDistributionController.cs",
+              "DocumentMoniker": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\Controllers\\DocumentDistributionController.cs",
+              "RelativeDocumentMoniker": "Documents\\Controllers\\DocumentDistributionController.cs",
+              "ToolTip": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\Controllers\\DocumentDistributionController.cs",
+              "RelativeToolTip": "Documents\\Controllers\\DocumentDistributionController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAQwCsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T04:04:37.379Z",
               "EditorCaption": ""
             }
           ]

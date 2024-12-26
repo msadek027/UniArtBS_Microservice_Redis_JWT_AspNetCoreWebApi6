@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "elSO0APW7JUJFIqAguDq/3tFikVxGJ4kfklsG+GMU7E=",
+  "Hash": "9SGu1AuB5jzXDSgVSDEV7SICeVxal/udbQznq9ibwEw=",
   "Source": "Workflow",
   "BasePath": "_content/Workflow",
   "Mode": "Default",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "wyeuvutpwg",
-      "Integrity": "SG4oVl8Pxx5FBb5OJ3rxi7XHT6HYLi9RlRV8IBIb/SA=",
+      "Fingerprint": "8lb1cij92f",
+      "Integrity": "FIvvrGskffTAZQAphdFkVwI6c4BMPpq9wmI035eS8x0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\swagger\\custom-swagger.js"
@@ -61,6 +61,51 @@
   ],
   "Endpoints": [
     {
+      "Route": "swagger/custom-swagger.8lb1cij92f.js",
+      "AssetFile": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\wwwroot\\swagger\\custom-swagger.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1175"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FIvvrGskffTAZQAphdFkVwI6c4BMPpq9wmI035eS8x0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 02:50:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8lb1cij92f"
+        },
+        {
+          "Name": "label",
+          "Value": "swagger/custom-swagger.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FIvvrGskffTAZQAphdFkVwI6c4BMPpq9wmI035eS8x0="
+        }
+      ]
+    },
+    {
       "Route": "swagger/custom-swagger.js",
       "AssetFile": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\wwwroot\\swagger\\custom-swagger.js",
       "Selectors": [],
@@ -71,7 +116,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1248"
+          "Value": "1175"
         },
         {
           "Name": "Content-Type",
@@ -79,11 +124,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"SG4oVl8Pxx5FBb5OJ3rxi7XHT6HYLi9RlRV8IBIb/SA=\""
+          "Value": "\"FIvvrGskffTAZQAphdFkVwI6c4BMPpq9wmI035eS8x0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 24 Dec 2024 11:01:52 GMT"
+          "Value": "Thu, 26 Dec 2024 02:50:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -93,52 +138,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-SG4oVl8Pxx5FBb5OJ3rxi7XHT6HYLi9RlRV8IBIb/SA="
-        }
-      ]
-    },
-    {
-      "Route": "swagger/custom-swagger.wyeuvutpwg.js",
-      "AssetFile": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Workflow\\wwwroot\\swagger\\custom-swagger.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1248"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"SG4oVl8Pxx5FBb5OJ3rxi7XHT6HYLi9RlRV8IBIb/SA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 24 Dec 2024 11:01:52 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "wyeuvutpwg"
-        },
-        {
-          "Name": "label",
-          "Value": "swagger/custom-swagger.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-SG4oVl8Pxx5FBb5OJ3rxi7XHT6HYLi9RlRV8IBIb/SA="
+          "Value": "sha256-FIvvrGskffTAZQAphdFkVwI6c4BMPpq9wmI035eS8x0="
         }
       ]
     },

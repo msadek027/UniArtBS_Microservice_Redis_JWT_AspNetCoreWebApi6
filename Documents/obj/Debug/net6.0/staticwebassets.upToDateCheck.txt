@@ -1,0 +1,2 @@
+wwwroot\swagger\custom-swagger.js
+wwwroot\swagger\swagger-ui.css

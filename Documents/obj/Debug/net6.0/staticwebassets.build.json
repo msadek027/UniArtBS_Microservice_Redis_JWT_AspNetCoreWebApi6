@@ -1,12 +1,228 @@
 {
   "Version": 1,
-  "Hash": "25y0/n8YDay71Oj+cF+o6iN8NpDjHSVCSpztR5c2AjQ=",
+  "Hash": "u4aVoftyqzVTToLLus4ys7w+qFSL6BVXUH5/ZRkctZg=",
   "Source": "Documents",
   "BasePath": "_content/Documents",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "Documents\\wwwroot",
+      "Source": "Documents",
+      "ContentRoot": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\wwwroot\\",
+      "BasePath": "_content/Documents",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\wwwroot\\swagger\\custom-swagger.js",
+      "SourceId": "Documents",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\wwwroot\\",
+      "BasePath": "_content/Documents",
+      "RelativePath": "swagger/custom-swagger#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8lb1cij92f",
+      "Integrity": "FIvvrGskffTAZQAphdFkVwI6c4BMPpq9wmI035eS8x0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\swagger\\custom-swagger.js"
+    },
+    {
+      "Identity": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\wwwroot\\swagger\\swagger-ui.css",
+      "SourceId": "Documents",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\wwwroot\\",
+      "BasePath": "_content/Documents",
+      "RelativePath": "swagger/swagger-ui#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jgojh81ikw",
+      "Integrity": "bZxFU1tvhHfbafHH3N2BGTmJN+4WArJiqQAShvVPjNM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\swagger\\swagger-ui.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "swagger/custom-swagger.8lb1cij92f.js",
+      "AssetFile": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\wwwroot\\swagger\\custom-swagger.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1175"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FIvvrGskffTAZQAphdFkVwI6c4BMPpq9wmI035eS8x0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 02:50:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8lb1cij92f"
+        },
+        {
+          "Name": "label",
+          "Value": "swagger/custom-swagger.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FIvvrGskffTAZQAphdFkVwI6c4BMPpq9wmI035eS8x0="
+        }
+      ]
+    },
+    {
+      "Route": "swagger/custom-swagger.js",
+      "AssetFile": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\wwwroot\\swagger\\custom-swagger.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1175"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FIvvrGskffTAZQAphdFkVwI6c4BMPpq9wmI035eS8x0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 02:50:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FIvvrGskffTAZQAphdFkVwI6c4BMPpq9wmI035eS8x0="
+        }
+      ]
+    },
+    {
+      "Route": "swagger/swagger-ui.css",
+      "AssetFile": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\wwwroot\\swagger\\swagger-ui.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "202771"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bZxFU1tvhHfbafHH3N2BGTmJN+4WArJiqQAShvVPjNM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Dec 2024 10:35:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bZxFU1tvhHfbafHH3N2BGTmJN+4WArJiqQAShvVPjNM="
+        }
+      ]
+    },
+    {
+      "Route": "swagger/swagger-ui.jgojh81ikw.css",
+      "AssetFile": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\wwwroot\\swagger\\swagger-ui.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "202771"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bZxFU1tvhHfbafHH3N2BGTmJN+4WArJiqQAShvVPjNM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Dec 2024 10:35:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jgojh81ikw"
+        },
+        {
+          "Name": "label",
+          "Value": "swagger/swagger-ui.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bZxFU1tvhHfbafHH3N2BGTmJN+4WArJiqQAShvVPjNM="
+        }
+      ]
+    }
+  ]
 }

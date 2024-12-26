@@ -173,10 +173,11 @@ E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Docu
 E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Documents.props
 E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Documents.props
 E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\obj\Debug\net6.0\staticwebassets.pack.json
-E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\obj\Debug\net6.0\staticwebassets.upToDateCheck.txt
 E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\obj\Debug\net6.0\Documents.csproj.Up2Date
 E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\obj\Debug\net6.0\Documents.dll
 E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\obj\Debug\net6.0\refint\Documents.dll
 E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\obj\Debug\net6.0\Documents.pdb
 E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\obj\Debug\net6.0\Documents.genruntimeconfig.cache
 E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\obj\Debug\net6.0\ref\Documents.dll
+E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\bin\Debug\net6.0\Documents.staticwebassets.runtime.json
+E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\obj\Debug\net6.0\staticwebassets.upToDateCheck.txt

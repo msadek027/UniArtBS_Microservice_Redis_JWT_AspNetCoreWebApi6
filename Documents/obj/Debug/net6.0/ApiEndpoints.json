@@ -77,6 +77,48 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Documents.Controllers.DocumentDistributionController",
+    "Method": "SaveDistribution",
+    "RelativePath": "api/DocumentDistribution/SaveDistribution",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "documentList",
+        "Type": "System.Collections.Generic.List\u00601[[Documents.Models.BEL.DocumentDistributionSharingBEO, Documents, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "employeeList",
+        "Type": "System.Collections.Generic.List\u00601[[Documents.Models.BEL.DistributionToBEO, Documents, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Documents.Controllers.DocumentDistributionController",
+    "Method": "SaveDistribution2",
+    "RelativePath": "api/DocumentDistribution/SaveDistribution2",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "documentList",
+        "Type": "System.Collections.Generic.List\u00601[[Documents.Models.BEL.DocumentDistributionSharingBEO, Documents, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "employeeList",
+        "Type": "System.Collections.Generic.List\u00601[[Documents.Models.BEL.DistributionToBEO, Documents, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Documents.Controllers.DocumentScanningController",
     "Method": "DocUploadMultipleFile",
     "RelativePath": "api/DocumentScanning/DocUploadMultipleFile",

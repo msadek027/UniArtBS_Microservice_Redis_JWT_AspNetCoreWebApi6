@@ -138,8 +138,9 @@ if (app.Environment.IsDevelopment() || app.Environment.IsProduction())
     app.UseSwaggerUI(options =>
     {
         options.DefaultModelsExpandDepth(-1); // Disables displaying models (schemas)     
-        options.SwaggerEndpoint("http://localhost:5069/swagger/v1/swagger.json", "Workflow v1");
-        options.SwaggerEndpoint("http://localhost:5069/swagger/v1/swagger.json", "Documents v1");
+        options.SwaggerEndpoint("/swagger/v1/swagger.json", "Workflow v1");
+        options.SwaggerEndpoint("/swagger/v1/swagger.json", "Documents v1");    
+        options.SwaggerEndpoint("/swagger/v1/swagger.json", "Security v1");
         options.InjectStylesheet("/swagger/swagger-ui.css");
         options.InjectJavascript("/swagger/custom-swagger.js"); // Path relative to wwwroot  
     });

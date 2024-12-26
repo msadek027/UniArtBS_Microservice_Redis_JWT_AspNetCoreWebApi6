@@ -91,3 +91,4 @@ E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Docu
 E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\obj\Release\net6.0\Documents.pdb
 E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\obj\Release\net6.0\Documents.genruntimeconfig.cache
 E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\obj\Release\net6.0\ref\Documents.dll
+E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\bin\Release\net6.0\Documents.staticwebassets.runtime.json

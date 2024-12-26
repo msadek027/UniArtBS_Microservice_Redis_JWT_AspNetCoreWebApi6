@@ -52,9 +52,9 @@ namespace Documents.Controllers
       
             try
             {
-                //var terminalHelper = new HelperController();
+               
                 string setTerminal = GetIP();
-                //string setTerminal2 = GetClientIp();
+            
                 
                 string CntDate = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");               
                 string formattedDateTime = DateTime.Now.ToString("yyyyMMdd-HHmmss-fff");
@@ -138,9 +138,8 @@ namespace Documents.Controllers
             var items = new List<string>();
             try
             {
-               // var terminalHelper = new HelperController();
-                string setTerminal = Ip;            
-
+              
+                string setTerminal = Ip;           
                 foreach (var file in obj.files)
                 {
 

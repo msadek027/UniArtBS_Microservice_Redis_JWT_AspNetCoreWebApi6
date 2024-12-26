@@ -488,10 +488,140 @@
           }
         }
       }
+    },
+    "/api/DocumentDistribution/SaveDistribution": {
+      "post": {
+        "tags": [
+          "DocumentDistribution"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "documentList": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/DocumentDistributionSharingBEO"
+                    }
+                  },
+                  "employeeList": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/DistributionToBEO"
+                    }
+                  }
+                }
+              },
+              "encoding": {
+                "documentList": {
+                  "style": "form"
+                },
+                "employeeList": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/DocumentDistribution/SaveDistribution2": {
+      "post": {
+        "tags": [
+          "DocumentDistribution"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "documentList": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/DocumentDistributionSharingBEO"
+                    }
+                  },
+                  "employeeList": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/DistributionToBEO"
+                    }
+                  }
+                }
+              },
+              "encoding": {
+                "documentList": {
+                  "style": "form"
+                },
+                "employeeList": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {
     "schemas": {
+      "DistributionToBEO": {
+        "type": "object",
+        "properties": {
+          "setEmployeeId": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "DocumentDistributionSharingBEO": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "nullable": true
+          },
+          "documentName": {
+            "type": "string",
+            "nullable": true
+          },
+          "fileDirectory": {
+            "type": "string",
+            "nullable": true
+          },
+          "subcategoryId": {
+            "type": "string",
+            "nullable": true
+          },
+          "fileExtension": {
+            "type": "string",
+            "nullable": true
+          },
+          "mailBodyContext_Remarks": {
+            "type": "string",
+            "nullable": true
+          },
+          "setEmployeeId": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "DocumentScanningDataRedisCacheBEO": {
         "type": "object",
         "properties": {

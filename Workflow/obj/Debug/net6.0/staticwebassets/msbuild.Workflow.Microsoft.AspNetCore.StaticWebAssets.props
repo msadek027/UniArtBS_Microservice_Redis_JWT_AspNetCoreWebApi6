@@ -12,8 +12,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>wyeuvutpwg</Fingerprint>
-      <Integrity>SG4oVl8Pxx5FBb5OJ3rxi7XHT6HYLi9RlRV8IBIb/SA=</Integrity>
+      <Fingerprint>8lb1cij92f</Fingerprint>
+      <Integrity>FIvvrGskffTAZQAphdFkVwI6c4BMPpq9wmI035eS8x0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\swagger\custom-swagger.js'))</OriginalItemSpec>
