@@ -10,6 +10,7 @@ using System.Text;
 
 namespace Documents.Controllers
 {
+   // [ApiExplorerSettings(IgnoreApi = true)]
     [Route("api/[controller]")]
     [ApiController]
     public class DocumentSharingController : ControllerBase
@@ -17,7 +18,6 @@ namespace Documents.Controllers
         TerminalLogger terminal = new TerminalLogger();
         DBConnection dbConn = new DBConnection();
         DBHelper dbHelper = new DBHelper();
-
 
         private readonly DbContextClass _dbContext;
         private readonly ICacheService _cacheService;
@@ -188,7 +188,9 @@ namespace Documents.Controllers
             };
             return Ok(response);
         }
-
+        //[ApiExplorerSettings(IgnoreApi = true)]
+        [Route("SavedSharedData")]
+        [HttpGet]
         public bool SavedSharedData(List<DocumentSharingBEO> documentList, string FromEmailid, String toEmail, string ccAddress, string bccAddress, string Subj, string Message)
         {
             string currentUrl = $"{Request.Scheme}://{Request.Host}{Request.Path}{Request.QueryString}";
@@ -219,6 +221,8 @@ namespace Documents.Controllers
             }
             return isTrue;
         }
+        
+        [Route("DownloadLink")]
         [HttpGet]
         public ActionResult DownloadLink(string file)
         {

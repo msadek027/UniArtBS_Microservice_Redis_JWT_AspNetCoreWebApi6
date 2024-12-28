@@ -1,12 +1,11 @@
 {
   "Version": 1,
-  "Hash": "PB3BcSHgPLwhrvYIVEh+hO4AjRhqdG0Yev/8JarKwH4=",
+  "Hash": "CbATTizOC/6t1IiypeDh3ZGPEzrUwVXoRfSdGcAvexg=",
   "Source": "UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6",
   "BasePath": "_content/UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "Assets": []
 }

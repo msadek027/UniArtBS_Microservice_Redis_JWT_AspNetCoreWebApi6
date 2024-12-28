@@ -181,3 +181,4 @@ E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Docu
 E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\obj\Debug\net6.0\ref\Documents.dll
 E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\bin\Debug\net6.0\Documents.staticwebassets.runtime.json
 E:\VS2022\MicroserviceApp\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\obj\Debug\net6.0\staticwebassets.upToDateCheck.txt
+D:\gitHup\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\Documents\bin\Debug\net6.0\Documents.staticwebassets.runtime.json

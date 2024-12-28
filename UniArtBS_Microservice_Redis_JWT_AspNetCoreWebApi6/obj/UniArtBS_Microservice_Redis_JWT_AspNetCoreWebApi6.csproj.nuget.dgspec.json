@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6.csproj": {}
+    "D:\\gitHup\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6.csproj": {}
   },
   "projects": {
-    "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6.csproj": {
+    "D:\\gitHup\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6.csproj",
+        "projectUniqueName": "D:\\gitHup\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6.csproj",
         "projectName": "UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6",
-        "projectPath": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6.csproj",
-        "packagesPath": "C:\\Users\\sadequr\\.nuget\\packages\\",
-        "outputPath": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\obj\\",
+        "projectPath": "D:\\gitHup\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\gitHup\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\sadequr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,13 +39,7 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net6.0": {
@@ -126,7 +121,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
