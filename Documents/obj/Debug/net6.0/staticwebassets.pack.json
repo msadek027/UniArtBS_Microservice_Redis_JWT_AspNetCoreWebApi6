@@ -1,12 +1,16 @@
 {
   "Files": [
     {
-      "Id": "D:\\gitHup\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\wwwroot\\swagger\\custom-swagger.js",
+      "Id": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\wwwroot\\swagger\\custom-swagger.js",
       "PackagePath": "staticwebassets\\swagger\\custom-swagger.js"
     },
     {
-      "Id": "D:\\gitHup\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\wwwroot\\swagger\\swagger-ui.css",
+      "Id": "E:\\VS2022\\MicroserviceApp\\UniArtBS_Microservice_Redis_JWT_AspNetCoreWebApi6\\Documents\\wwwroot\\swagger\\swagger-ui.css",
       "PackagePath": "staticwebassets\\swagger\\swagger-ui.css"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Documents.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Documents.Microsoft.AspNetCore.StaticWebAssets.props",

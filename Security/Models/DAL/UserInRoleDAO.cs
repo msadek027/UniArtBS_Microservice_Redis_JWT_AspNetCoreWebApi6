@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Security.Models.BEL;
+using Security.WorkflowCommon;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
@@ -70,7 +72,7 @@ namespace Security.Models.DAL
         public List<UserInRoleBEL> GetEmployeeList()
         {
             string Qry = "Select EmpID,EmpName From HR_Emp_Recruitment where IsActive=1";
-            DataTable dt = dbHelper.GetDataTable(dbConn.HRConnStrReader(), Qry);
+            DataTable dt = dbHelper.GetDataTable(dbConn.SAConnStrReader(), Qry);
             List<UserInRoleBEL> item;
 
             item = (from DataRow row in dt.Rows

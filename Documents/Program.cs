@@ -23,12 +23,12 @@ builder.Services.AddDbContext<DbContextClass>(options => options.UseSqlServer(co
 builder.Services.AddMvc();
 // Add services to the container.
 builder.Services.AddControllers();
-//builder.Services.AddCors(options =>
-//{
-//    options.AddPolicy("CorsPolicy", builder => builder.AllowAnyMethod().AllowAnyHeader().AllowCredentials().SetIsOriginAllowed((hosts) => true));
-//    options.AddPolicy("AllowAll", builder => builder.AllowAnyMethod().AllowAnyHeader().AllowCredentials().SetIsOriginAllowed((hosts) => true));
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("CorsPolicy", builder => builder.AllowAnyMethod().AllowAnyHeader().AllowCredentials().SetIsOriginAllowed((hosts) => true));
+    options.AddPolicy("AllowAll", builder => builder.AllowAnyMethod().AllowAnyHeader().AllowCredentials().SetIsOriginAllowed((hosts) => true));
 
-//});
+});
 //builder.Services.AddCors(options =>
 //{
 //    options.AddPolicy("AllowAll", builder =>
@@ -38,15 +38,15 @@ builder.Services.AddControllers();
 //               .AllowAnyHeader();
 //    });
 //});
-builder.Services.AddCors(options =>
-{
-    options.AddPolicy("AllowSwaggerAggregator", policy =>
-    {
-        policy.AllowAnyHeader()
-              .AllowAnyMethod()
-              .WithOrigins("http://localhost:5069"); // Add the domain of your Swagger UI
-    });
-});
+//builder.Services.AddCors(options =>
+//{
+//    options.AddPolicy("AllowSwaggerAggregator", policy =>
+//    {
+//        policy.AllowAnyHeader()
+//              .AllowAnyMethod()
+//              .WithOrigins("http://localhost:5069"); // Add the domain of your Swagger UI
+//    });
+//});
 // JWT Authentication configuration
 var key = "This is my first Test Key This is my first Test Key";// Use your actual secret key here, ideally from a secure source
 builder.Services.AddAuthentication(options =>
@@ -133,10 +133,10 @@ if (app.Environment.IsDevelopment() || app.Environment.IsProduction())
     });
 }
 app.UseRouting();
-//app.UseCors("CorsPolicy");
+app.UseCors("CorsPolicy");
 //app.UseCors("AllowAll");
 //app.UseCors("AllowSpecificOrigins");
-app.UseCors("AllowSwaggerAggregator");
+//app.UseCors("AllowSwaggerAggregator");
 app.UseAuthentication();
 app.UseAuthorization();
 app.UseEndpoints(endpoints =>

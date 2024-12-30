@@ -1,23 +1,307 @@
 [
   {
-    "ContainingType": "Security.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "WeatherForecast",
+    "ContainingType": "Security.Controllers.FormController",
+    "Method": "GetForm",
+    "RelativePath": "api/Form",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": [
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Security.Controllers.FormController",
+    "Method": "OperationsMode",
+    "RelativePath": "api/Form",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Security.WeatherForecast, Security, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
+        "Name": "master",
+        "Type": "Security.Models.BEL.FormBEL",
+        "IsRequired": true
       }
     ],
-    "EndpointName": "GetWeatherForecast"
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Security.Controllers.LoginController",
+    "Method": "Authentication",
+    "RelativePath": "api/Login/Authentication",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Security.Controllers.LoginController",
+    "Method": "Refresh",
+    "RelativePath": "api/Login/refresh",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "token",
+        "Type": "Security.WorkflowCommon.RefreshTokenBEO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Security.Controllers.ModuleController",
+    "Method": "GetModule",
+    "RelativePath": "api/Module",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Security.Controllers.ModuleController",
+    "Method": "OperationsMode",
+    "RelativePath": "api/Module",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "master",
+        "Type": "Security.Models.BEL.ModuleBEL",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Security.Controllers.RoleController",
+    "Method": "GetRole",
+    "RelativePath": "api/Role",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Security.Controllers.RoleController",
+    "Method": "OperationsMode",
+    "RelativePath": "api/Role",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "master",
+        "Type": "Security.Models.BEL.RoleBEL",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Security.Controllers.RoleInFormPermissionController",
+    "Method": "GetRoleInFormPermissionList",
+    "RelativePath": "api/RoleInFormPermission",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RoleID",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Security.Controllers.RoleInFormPermissionController",
+    "Method": "OperationsMode",
+    "RelativePath": "api/RoleInFormPermission/PostRoleInFormP",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "master",
+        "Type": "Security.Models.BEL.RoleInFormBEL",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Security.Controllers.RoleInSoftwareModuleMappingController",
+    "Method": "GetRoleInSoftwareModuleMappingList",
+    "RelativePath": "api/RoleInSoftwareModuleMapping",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RoleID",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Security.Controllers.RoleInSoftwareModuleMappingController",
+    "Method": "OperationsMode",
+    "RelativePath": "api/RoleInSoftwareModuleMapping",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "master",
+        "Type": "Security.Models.BEL.RoleInSoftwareModuleBEL",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Security.Controllers.SoftwareController",
+    "Method": "GetSoftware",
+    "RelativePath": "api/Software",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Security.Controllers.SoftwareController",
+    "Method": "OperationsMode",
+    "RelativePath": "api/Software",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "master",
+        "Type": "Security.Models.BEL.SoftwareBEL",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Security.Controllers.UserInFormPermissionController",
+    "Method": "GetUserInFormPermissionList",
+    "RelativePath": "api/UserInFormPermission",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserID",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Security.Controllers.UserInFormPermissionController",
+    "Method": "OperationsMode",
+    "RelativePath": "api/UserInFormPermission/PostUserInFormP",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "master",
+        "Type": "Security.Models.BEL.UserInFormBEL",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Security.Controllers.UserInRoleController",
+    "Method": "GetEmployee",
+    "RelativePath": "api/UserInRole/Sa/UserInRole/GetEmployee",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Security.Controllers.UserInRoleController",
+    "Method": "GetEmpYetAssigned",
+    "RelativePath": "api/UserInRole/Sa/UserInRole/GetEmpYetAssigned",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RoleID",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Security.Controllers.UserInRoleController",
+    "Method": "GetUserInRole",
+    "RelativePath": "api/UserInRole/Sa/UserInRole/GetRoleInRole",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sessionRoleId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Security.Controllers.UserInRoleController",
+    "Method": "GetUser",
+    "RelativePath": "api/UserInRole/Sa/UserInRole/GetUser",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Security.Controllers.UserInRoleController",
+    "Method": "OperationsMode",
+    "RelativePath": "api/UserInRole/Sa/UserInRole/PostUserInRole",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "master",
+        "Type": "Security.Models.BEL.UserInRoleBEL",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]
