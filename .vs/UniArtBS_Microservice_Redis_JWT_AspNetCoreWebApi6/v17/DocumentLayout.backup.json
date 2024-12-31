@@ -83,8 +83,7 @@
               "RelativeToolTip": "Workflow\\Program.cs",
               "ViewState": "AgIAAJAAAAAAAAAAAAAAAJUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T06:04:34.199Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-30T06:04:34.199Z"
             },
             {
               "$type": "Document",
@@ -96,8 +95,7 @@
               "RelativeToolTip": "Security\\Controllers\\FormController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T05:54:42.631Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-30T05:54:42.631Z"
             },
             {
               "$type": "Document",
@@ -109,8 +107,7 @@
               "RelativeToolTip": "Security\\Controllers\\LoginController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T05:54:37.559Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-30T05:54:37.559Z"
             },
             {
               "$type": "Document",
@@ -122,8 +119,7 @@
               "RelativeToolTip": "Workflow\\Controllers\\LoginController.cs",
               "ViewState": "AgIAAFwAAAAAAAAAAAAIwHUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T05:53:20.976Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-30T05:53:20.976Z"
             },
             {
               "$type": "Document",
@@ -135,8 +131,7 @@
               "RelativeToolTip": "Security\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-30T05:20:14.01Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-30T05:20:14.01Z"
             },
             {
               "$type": "Document",
@@ -148,8 +143,7 @@
               "RelativeToolTip": "Workflow\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-30T05:18:51.123Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-30T05:18:51.123Z"
             },
             {
               "$type": "Document",
@@ -161,8 +155,7 @@
               "RelativeToolTip": "Security\\Data\\DbContextClass.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAA1wAUAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T05:16:24.971Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-30T05:16:24.971Z"
             },
             {
               "$type": "Document",
@@ -174,8 +167,7 @@
               "RelativeToolTip": "Security\\IJwtAuth.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T05:15:41.946Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-30T05:15:41.946Z"
             },
             {
               "$type": "Document",
@@ -187,8 +179,7 @@
               "RelativeToolTip": "Security\\Auth.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T05:15:29.897Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-30T05:15:29.897Z"
             },
             {
               "$type": "Document",
@@ -200,8 +191,7 @@
               "RelativeToolTip": "Security\\Program.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAAACkAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T05:14:28.909Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-30T05:14:28.909Z"
             }
           ]
         }
